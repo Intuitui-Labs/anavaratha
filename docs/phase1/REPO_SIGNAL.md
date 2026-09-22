@@ -23,3 +23,12 @@ No public `anavaratha` repository under NeevSK or intuitui-labs. Anavaratha rema
 ## Recommendation
 
 Do not open a public Anavaratha repo until questions + evidence catalog exist. If tooling is needed, prefer private notes + CLI kits; reuse `lk-edu-geo` patterns only if a spatial question survives ranking.
+
+---
+
+## Update 2026-09-22 (+0530) — repo now live
+
+Public repo created: https://github.com/Intuitui-Labs/anavaratha  
+C-first README + `docs/phase1/*` seeded on `main` by Chief of Staff.  
+Prior “no anavaratha repo” finding is historical only. Still: no product claim; Sensemaking desk surface.
+
