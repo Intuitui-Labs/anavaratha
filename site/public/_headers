@@ -1,0 +1,3 @@
+# Cloudflare Workers static assets: applies to every response.
+/*
+  X-Robots-Tag: noindex, nofollow

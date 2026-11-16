@@ -14,12 +14,26 @@ pnpm build    # -> dist/
 
 Only `/atlas` loads chart code. Each island hydrates when scrolled into view (`client:visible`). Initial load is the timeline and d3-scale (~110 KB). Cytoscape, MapLibre and Observable Plot load when their sections are reached. The other pages ship no JS.
 
-## Deploy (Vercel; not done yet)
+## Deploy (Cloudflare Workers, static assets)
 
-1. New Vercel project from `Intuitui-Labs/anavaratha`, **Root Directory = `site`**. `vercel.json` sets the framework (Astro), pnpm, and the output (`dist`).
-2. Settings → Domains → add `anavaratha.intuituilabs.studio`.
-3. DNS: none needed. Cloudflare already has `anavaratha` CNAME → `cname.vercel-dns.com`. Keep it **DNS-only (grey cloud)** so Vercel can issue the certificate.
-4. Optional env: `ANAVARATHA_SITE` (canonical origin), `ANAVARATHA_BASE` (to serve under a subpath, e.g. `/projects/anavaratha/atlas-site`).
+Hosted on Cloudflare, not Vercel. `wrangler.jsonc` defines an assets-only Worker (`anavaratha-site`): no server code, it serves `dist/`.
+
+- Custom domain: `anavaratha.intuituilabs.studio` (Workers custom domain; Cloudflare manages the DNS record and certificate).
+- `public/_headers` sends `X-Robots-Tag: noindex, nofollow` on every response. Every page also has `<meta name="robots" content="noindex, nofollow">`.
+- Unknown paths get `404.html` with status 404 (`not_found_handling: "404-page"`).
+- `vercel.json` was removed so there is one source of truth for hosting and headers.
+
+Manual deploy (needs a logged-in Wrangler):
+
+```bash
+cd site
+pnpm install --frozen-lockfile
+pnpm run deploy      # astro build && wrangler deploy
+```
+
+Auto-deploy (Workers Builds): Cloudflare dashboard → Workers & Pages → `anavaratha-site` → Settings → Build → connect `Intuitui-Labs/anavaratha`, root directory `site`, build command `pnpm build`, deploy command `npx wrangler deploy`. Needs the Cloudflare GitHub app installed on the Intuitui-Labs org.
+
+Optional env at build time: `ANAVARATHA_SITE` (canonical origin), `ANAVARATHA_BASE` (to serve under a subpath, e.g. `/projects/anavaratha/atlas-site`).
 
 ## Data
 

@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // Assets-only Worker: serves the static Astro build in ./dist. No server code.
+  "name": "anavaratha-site",
+  "compatibility_date": "2026-11-16",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  },
+  "routes": [
+    { "pattern": "anavaratha.intuituilabs.studio", "custom_domain": true }
+  ],
+  "workers_dev": true,
+  "preview_urls": false
+}
