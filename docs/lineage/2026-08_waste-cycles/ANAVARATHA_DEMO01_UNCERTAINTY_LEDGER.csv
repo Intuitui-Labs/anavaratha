@@ -1,0 +1,9 @@
+field,availability,why_it_matters
+incoming accepted mass,not available in 22-station table,needed for accepted-input denominator
+rejects and residuals,not available,prevents claiming material closure
+opening/closing stock,not available,sales above current production may reflect stock
+equipment downtime and maintenance,not complete in station CSV,tests usable capacity
+staff attendance and hours,employee count only,tests effective labour capacity
+compost quality and contamination,not complete in station CSV,tests product usefulness and quality dissipation
+residual destination,not available,tests burden transfer
+current 2026 status,not established,2022 evidence cannot prove current operation

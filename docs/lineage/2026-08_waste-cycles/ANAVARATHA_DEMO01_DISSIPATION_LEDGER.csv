@@ -1,0 +1,23 @@
+local_authority,code,reported_capacity_output_difference_t_month,reported_output_as_pct_running,reported_design_output_difference_t_month,sales_minus_production_t_month,possible_stock_or_boundary_warning,physical_entropy_production_calculated,operational_diagnostic,interpretation
+Kaduwela,KMC,209.4,6.933333333333333,259.4,-3.1999999999999993,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Kotikawatte,KWPS,55.4,3.6521739130434794,47.9,-1.0,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Seethawakapura,SPUC,62.5,16.666666666666664,112.5,0.0,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Seethawaka,SPS,87.4,5.513513513513513,44.9,0.0,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Attanagalla,ATPS,157.0,7.647058823529412,187.0,-3.0,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Divulapitiya,DPS,31.0,17.333333333333336,93.5,-0.2999999999999998,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Katana,KPS,182.0,9.0,157.0,0.0,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Kelaniya,KLPS,88.7,1.4444444444444446,123.7,1.7,yes,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Ja Ela,JEUC,25.5,18.53035143769968,69.2,-2.0,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Ja Ela,JEPS,181.1,9.45,231.1,-6.199999999999999,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Meerigama,MRPS,92.0,8.0,67.0,-1.5999999999999996,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Minuwangoda,MGPS,74.9,0.1333333333333333,49.9,0.0,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Negombo,NMC,167.6,10.613333333333332,230.1,2.200000000000003,yes,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Agalawatte,AWPS,44.6,10.8,69.6,0.2999999999999998,yes,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Beruwala,BPS,34.4,8.266666666666666,96.9,-0.7000000000000002,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Bulathsinhala,BSPS,46.0,8.0,146.0,0.0,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Horana,HPS,214.6,4.622222222222223,239.6,-1.200000000000001,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Madurawala,MPS,48.3,3.4000000000000004,48.3,-0.09999999999999987,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Millaniya,MLPS,111.2,1.1555555555555557,73.7,0.0,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Mathugama,MTPS,272.2,1.018181818181818,147.2,0.0,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Palindanuwara,PNPS,24.3,2.8,49.3,0.5,yes,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy
+Walallawita,WWPS,24.2,3.2,74.2,0.0,no,no,reported_capacity_output_difference; middle_process_unknown,descriptive proxy; not thermodynamic entropy

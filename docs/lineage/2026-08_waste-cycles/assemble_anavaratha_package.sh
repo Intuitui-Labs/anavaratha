@@ -1,0 +1,135 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd /home/ubuntu/anavaratha
+
+pkg="anavaratha_project_package"
+rm -rf "$pkg"
+mkdir -p "$pkg"/{00_START_HERE,01_CANONICAL,02_DOMAIN_FRAMEWORKS,03_FREEDOM_FROM_WASTE,04_MATERIAL_AFTERLIVES,05_ECOLOGICAL_FLOURISHING,06_DEMONSTRATOR_01,07_SOURCES,08_GIS,09_SCRIPTS_AND_REPRODUCTION,10_RESEARCH_LOG}
+
+copy_existing() {
+  local dest="$1"; shift
+  for src in "$@"; do
+    if [[ -e "$src" ]]; then
+      cp -f "$src" "$dest/"
+    else
+      printf '%s\n' "$src" >> "$pkg/00_START_HERE/UNAVAILABLE_OR_NOT_RESTORED_FILES.txt"
+    fi
+  done
+}
+
+copy_existing "$pkg/00_START_HERE" \
+  ANAVARATHA_PROJECT_PACKAGE_V0_1_README.md \
+  ANAVARATHA_DOCUMENTATION_INDEX_V0_1.md \
+  ANAVARATHA_GIS_SOURCE_MANIFEST.csv \
+  ANAVARATHA_NATIONAL_FACILITY_CAPACITY_SOURCE_CATALOGUE.csv
+
+copy_existing "$pkg/01_CANONICAL" \
+  ANAVARATHA_MASTER_RESEARCH_ARCHITECTURE_V0_1.md \
+  ANAVARATHA_THREE_DOMAIN_ARCHITECTURE_V0_1.md
+
+copy_existing "$pkg/02_DOMAIN_FRAMEWORKS" \
+  ANAVARATHA_THERMODYNAMICS_DISSIPATION_NEGENTROPY_FRAMEWORK_V0_1.md \
+  ANAVARATHA_DIVERGENT_DIRECTIONS_ATLAS_V0_1.md \
+  ANAVARATHA_LEARNING_LEVERAGE_ACTION_ARCHITECTURE_V0_1.md
+
+copy_existing "$pkg/03_FREEDOM_FROM_WASTE" \
+  ANAVARATHA_GENERAL_WASTE_SYSTEM.md \
+  ANAVARATHA_WASTE_STREAM_CYCLES.md \
+  ANAVARATHA_CAPACITY_ACTION_DATA_ONTOLOGY.md \
+  ANAVARATHA_CAPACITY_FACILITY_DIMENSIONS_V0.1.md \
+  ANAVARATHA_FACILITY_CAPACITY_REALITY_DEEP_REVIEW_V0.1.md \
+  ANAVARATHA_NATIONAL_FACILITY_CAPACITY_RESEARCH_PROTOCOL_V0_1.md \
+  ANAVARATHA_CONCLUSION_ADVERSARIAL_REVIEW_V0_1.md \
+  ANAVARATHA_CONCLUSION_ADVERSARIAL_EVIDENCE_LOG.csv \
+  ANAVARATHA_CURRENT_FACILITY_VERIFICATION_SCHEMA_V0_1.md \
+  ANAVARATHA_OFFICIAL_WASTE_FACILITY_DATA_REQUEST_PACK_V0_1.md \
+  ANAVARATHA_NATIONAL_SPATIAL_EXPLORATION_V0.1.md \
+  ANAVARATHA_WESTERN_PROVINCE_FULL_CAPACITY_REALITY_REVIEW_V0_1.md \
+  ANAVARATHA_WESTERN_OPEN_DUMPING_HIDDEN_DISPOSAL_AUDIT_V0_1.md \
+  ANAVARATHA_WESTERN_SYSTEM_TYPOLOGY_V0_1.md \
+  ANAVARATHA_WESTERN_CONTROLLED_DESCENT_PRIORITIZATION_V0_1.md \
+  ANAVARATHA_WESTERN_SATELLITE_SCREENING_PROTOCOL_V0_1.md \
+  ANAVARATHA_WESTERN_PROVINCE_SOURCE_INVENTORY.csv \
+  ANAVARATHA_WESTERN_SOURCE_CONSISTENCY_AUDIT.csv \
+  ANAVARATHA_WESTERN_FACILITY_STATUS_REGISTER_V0_1.csv \
+  ANAVARATHA_WESTERN_HIDDEN_DUMPING_REGISTER.csv \
+  ANAVARATHA_WESTERN_MATERIAL_PATHWAY_REGISTER.csv \
+  ANAVARATHA_WMA_OPEN_DUMP_MAP_LEAD_REGISTER.csv
+
+copy_existing "$pkg/04_MATERIAL_AFTERLIVES" \
+  ANAVARATHA_MATERIAL_AFTERLIVES_README.md
+copy_existing "$pkg/05_ECOLOGICAL_FLOURISHING" \
+  ANAVARATHA_ECOLOGICAL_FLOURISHING_README.md
+
+copy_existing "$pkg/06_DEMONSTRATOR_01" \
+  ANAVARATHA_DEMONSTRATOR_01_BOUNDARY_AND_AUDIT_DESIGN_V0_1.md \
+  ANAVARATHA_DEMONSTRATOR_01_REPORT_V0_1.md \
+  ANAVARATHA_DEMO01_FORENSIC_GAP_ANALYSIS_V0_1.md \
+  ANAVARATHA_DEMO01_MIDDLE_PROCESS_EVIDENCE_REVIEW_V0_1.md \
+  ANAVARATHA_DEMO01_MATERIAL_LEDGER.csv \
+  ANAVARATHA_DEMO01_DISSIPATION_LEDGER.csv \
+  ANAVARATHA_DEMO01_CAPABILITY_LEDGER.csv \
+  ANAVARATHA_DEMO01_UNCERTAINTY_LEDGER.csv \
+  ANAVARATHA_DEMO01_UNKNOWN_MIDDLE_PROCESS_REGISTER.csv \
+  ANAVARATHA_DEMO01_GAP_FORENSIC_TABLE.csv \
+  ANAVARATHA_DEMO01_BOTTLENECK_LEVERAGE_MATRIX.csv \
+  ANAVARATHA_DEMO01_MIDDLE_PROCESS_EVIDENCE_REVIEW_V0_1.md \
+  ANAVARATHA_MANIPURA_2025_WESTERN_PROVINCE_22_STATIONS.csv \
+  ANAVARATHA_MANIPURA_2025_AGGREGATE_REALITY_SUMMARY.csv \
+  ANAVARATHA_MANIPURA_2025_STATION_REALITY_DIAGNOSTICS.csv \
+  ANAVARATHA_MANIPURA_2025_CAPACITY_REALITY_DIAGNOSTICS.png \
+  Manipura2025_Supplementary_Data_1.docx \
+  Manipura2025_Supplementary_Data_2.docx
+
+copy_existing "$pkg/07_SOURCES" \
+  Auditor_General_Environmental_Performance_Audit_2021_2023.pdf \
+  Auditor_General_Environmental_Performance_Audit_2021_2023.txt \
+  CEA_Recommendations_WP_SWMP_2024.pdf \
+  CEA_Recommendations_WP_SWMP_2024.txt \
+  CEA_Response_WP_SWMP_2024.pdf \
+  CEA_Response_WP_SWMP_2024.txt \
+  IWMI_SriLanka_20_city_waste_inventory_2020.pdf \
+  JICA_2019_ReEB_Waste_Final_Report.pdf \
+  JICA_SriLanka_Waste_Survey_2016.pdf \
+  JICA_SriLanka_Waste_Survey_2016.txt \
+  SC_Meethotamulla_ADB_2026_copy.pdf \
+  Sato_2024_Current_Condition_SWM_Sri_Lanka.pdf \
+  Sato_2024_Current_Condition_SWM_Sri_Lanka.txt \
+  WMA_Karadiyana_WtE_public_download.pdf \
+  WMA_Western_Province_Master_Plan_public_download.pdf \
+  WMA_Western_Province_Master_Plan.txt \
+  National_Environmental_Amendment_15_2026.pdf
+
+copy_existing "$pkg/08_GIS" \
+  ANAVARATHA_GIS_PACKAGE_README.md \
+  ANAVARATHA_GIS_LAYER_INTEGRITY_AUDIT_V0_1.csv \
+  ANAVARATHA_NSDI_SEWER_FEATURES_BY_DISTRICT_V0_1.csv \
+  ANAVARATHA_OSM_WASTE_CLUSTERS_V0_1.csv \
+  ANAVARATHA_OSM_WASTE_RECEIVING_PROXIMITY_V0_1.csv \
+  ANAVARATHA_GIS_POPULATION_OSM_RELATIONSHIP_V0_1.png \
+  ANAVARATHA_GIS_POPULATION_OSM_WASTE_V0_1.png \
+  ANAVARATHA_GIS_WASTE_RECEIVING_PROXIMITY_V0_1.png \
+  ANAVARATHA_WMA_WESTERN_CAPACITY_SERIES.csv \
+  ANAVARATHA_WMA_WESTERN_CAPACITY_SERIES.png \
+  ANAVARATHA_GIS_TO_LOCAL_DESCENT_GATE_V0_1.md \
+  CPH2024_district_denominators.csv \
+  CPH2024_district_denominators.geojson \
+  OSM_Sri_Lanka_waste_sites.geojson \
+  OSM_Sri_Lanka_receiving_environments.geojson
+
+copy_existing "$pkg/09_SCRIPTS_AND_REPRODUCTION" \
+  audit_gis_layers.py analyze_nsdi_sewer_context.py analyze_manipura_2025_station_reality.py analyze_western_province_full_reality.py analyze_wma_western_capacity_series.py audit_iwmi_capacity_utilization.py build_demonstrator01_forensic_gap_table.py build_demonstrator01_ledgers.py build_iwmi_capacity_register.py build_manipura_2025_station_dataset.py crop_wma_open_dump_map.py extract_iwmi_city_profiles.py repair_demonstrator01_unknown_middle.py repair_western_facility_status_register.py
+
+copy_existing "$pkg/10_RESEARCH_LOG" anavaratha_research_notes.md
+
+printf '%s\n' '--- folder counts ---'
+find "$pkg" -type f -printf '%P\n' | awk -F/ '{print $1}' | sort | uniq -c
+printf '%s\n' '--- total files ---'
+find "$pkg" -type f | wc -l
+printf '%s\n' '--- unavailable list ---'
+if [[ -f "$pkg/00_START_HERE/UNAVAILABLE_OR_NOT_RESTORED_FILES.txt" ]]; then cat "$pkg/00_START_HERE/UNAVAILABLE_OR_NOT_RESTORED_FILES.txt"; else echo 'none'; fi
+rm -f ANAVARATHA_PROJECT_PACKAGE_V0_1.zip
+zip -qr ANAVARATHA_PROJECT_PACKAGE_V0_1.zip "$pkg"
+unzip -tq ANAVARATHA_PROJECT_PACKAGE_V0_1.zip
+printf '%s\n' 'archive_test=PASS'
+ls -lh ANAVARATHA_PROJECT_PACKAGE_V0_1.zip

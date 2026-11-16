@@ -1,0 +1,24 @@
+# STATUS: `docs/lineage/2026-08_institution-enforcement/`
+
+Counts: lineage-only 15 (total 15)
+Status values: **current** · **superseded** · **killed** · **lineage-only**. Files are verbatim copies of the legacy originals (sha256 listed), so status lives here rather than in front-matter, to keep the bytes identical. Characters that are invalid on Windows (`:`) were replaced in file names only; the original name is in the source column.
+
+Lock reminders: Frame C (syntropy) primary · Anavaratha and Peace Valley are separate peers · Sensemaking stage: no intervention claims, no site selection.
+
+| File | Status | Note | Source (archive path) | sha256[:12] |
+|---|---|---|---|---|
+| `ANAVARATHA_ENFORCEMENT_CASE_REGISTER.csv` | **lineage-only** | 25-Aug institution/enforcement layer (responsibility chain). In scope per Naveen 2026-11-16. | `raw/waste_cycles_anavaratha/zip_entries/ANAVARATHA_ENFORCEMENT_CASE_REGISTER.csv` | 5462c2ccab4f |
+| `ANAVARATHA_LAW_CAPACITY_REALITY_MODEL_V0.1.md` | **lineage-only** | 25-Aug institution/enforcement layer (responsibility chain). In scope per Naveen 2026-11-16. | `raw/waste_cycles_anavaratha/zip_entries/ANAVARATHA_LAW_CAPACITY_REALITY_MODEL_V0.1.md` | f218190001c3 |
+| `Anavaratha Action-Side Evidence Audit v0.1.md` | **lineage-only** | 25-Aug institution/enforcement layer (responsibility chain). In scope per Naveen 2026-11-16. | `raw/waste_cycles_anavaratha/zip_entries/Anavaratha Action-Side Evidence Audit v0.1.md` | e8e9a2119daf |
+| `Anavaratha Capacity and Action Evidence v0.1.md` | **lineage-only** | 25-Aug institution/enforcement layer (responsibility chain). In scope per Naveen 2026-11-16. | `raw/waste_cycles_anavaratha/zip_entries/Anavaratha Capacity and Action Evidence v0.1.md` | 3451e6126850 |
+| `Anavaratha Capacity and Action Exploration v0.1.md` | **lineage-only** | 25-Aug institution/enforcement layer (responsibility chain). In scope per Naveen 2026-11-16. | `raw/waste_cycles_anavaratha/zip_entries/Anavaratha Capacity and Action Exploration v0.1.md` | b31fbeeb41cc |
+| `Anavaratha Capacity and Action-Side Data Ontology.md` | **lineage-only** | 25-Aug institution/enforcement layer (responsibility chain). In scope per Naveen 2026-11-16. | `raw/waste_cycles_anavaratha/zip_entries/Anavaratha Capacity and Action-Side Data Ontology.md` | 81e7185b12a8 |
+| `Anavaratha Capacity, Constraint, Actor, and Power Layer.md` | **lineage-only** | 25-Aug institution/enforcement layer (responsibility chain). In scope per Naveen 2026-11-16. | `raw/waste_cycles_anavaratha/zip_entries/Anavaratha Capacity, Constraint, Actor, and Power Layer.md` | 9fe96e472909 |
+| `Anavaratha Enforcement Institution and Capacity Map v0.1.md` | **lineage-only** | 25-Aug institution/enforcement layer (responsibility chain). In scope per Naveen 2026-11-16. | `raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md` | cfe576317271 |
+| `Anavaratha Enforcement Verification Agenda v0.1.md` | **lineage-only** | 25-Aug institution/enforcement layer (responsibility chain). In scope per Naveen 2026-11-16. | `raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Verification Agenda v0.1.md` | d56b365c0d45 |
+| `Anavaratha Formal-Compliance vs Material-Reality Comparison v0.1.md` | **lineage-only** | 25-Aug institution/enforcement layer (responsibility chain). In scope per Naveen 2026-11-16. | `raw/waste_cycles_anavaratha/zip_entries/Anavaratha Formal-Compliance vs Material-Reality Comparison v0.1.md` | ff757a9bd4fb |
+| `Anavaratha Law–Capacity–Reality Evidence v0.1.md` | **lineage-only** | 25-Aug institution/enforcement layer (responsibility chain). In scope per Naveen 2026-11-16. | `raw/waste_cycles_anavaratha/zip_entries/Anavaratha Law–Capacity–Reality Evidence v0.1.md` | ade6c3546115 |
+| `Anavaratha Legal and Enforcement Map v0.1.md` | **lineage-only** | 25-Aug institution/enforcement layer (responsibility chain). In scope per Naveen 2026-11-16. | `raw/waste_cycles_anavaratha/zip_entries/Anavaratha Legal and Enforcement Map v0.1.md` | 16a4094bedaa |
+| `Anavaratha Official Waste-Facility Data Request Pack.md` | **lineage-only** | UNSENT DRAFT LETTERS to CEA/WMA/LAs/SLLRDC/NSWMSC. Never send without Naveen's explicit decision. Any contacts go to the private archive only. | `raw/waste_cycles_anavaratha/zip_entries/Anavaratha Official Waste-Facility Data Request Pack.md` | def8b292d8c7 |
+| `Anavaratha Pressure–Capacity–Action Analysis v0.1.md` | **lineage-only** | 25-Aug institution/enforcement layer (responsibility chain). In scope per Naveen 2026-11-16. | `raw/waste_cycles_anavaratha/zip_entries/Anavaratha Pressure–Capacity–Action Analysis v0.1.md` | 859af35cca9f |
+| `NAPPWM_action_register.csv` | **lineage-only** | 25-Aug institution/enforcement layer (responsibility chain). In scope per Naveen 2026-11-16. | `raw/waste_cycles_anavaratha/zip_entries/NAPPWM_action_register.csv` | e921735281b6 |

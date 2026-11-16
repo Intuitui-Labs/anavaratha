@@ -1,0 +1,5 @@
+dataset_a,dataset_b,compatible_for_direct_addition,reason
+22 compost stations,WMA Table 4-21 2022,False,Different facility boundary: 22 surveyed stations versus province-wide plan categories; monthly station values versus t/day plan series; compost station scope versus all LA/waste-park/TRF flows.
+22 compost stations,WMA 28 composting facilities,False,22-study station sample is not proven identical to all 28 facilities; facility identities and stream boundaries are not fully reconciled.
+WMA 2020 baseline,WMA 2022 plan baseline,False,Different base years and plan revisions; same document but not a demonstrated time-series measurement system.
+WMA plan targets,current operational reality,False,"Future targets/design assumptions require delivery, uptime, throughput, maintenance, and audit evidence."

@@ -1,0 +1,33 @@
+flowchart LR
+    A[Materials and products entering pilot] --> B[Households]
+    A --> C[Businesses and markets]
+    A --> D[Institutions and public spaces]
+    B --> E[Waste generation]
+    C --> E
+    D --> E
+    E --> F[Source separation]
+    E --> G[Mixed collection]
+    E --> H[Uncollected or self-disposed]
+    F --> I[Reuse and formal recycling]
+    F --> J[Informal recovery and aggregation]
+    G --> K[Transfer and transport]
+    K --> L[Composting or processing]
+    K --> M[Controlled disposal]
+    K --> N[Uncontrolled disposal]
+    H --> N
+    H --> O[Open burning]
+    N --> P[Accumulation hotspots]
+    N --> Q[Drains, waterways, wetlands]
+    I --> R[Recovered products and raw materials]
+    J --> R
+    L --> S[Compost, soil products, or energy]
+    M --> T[Residual stock and future capacity]
+    P --> U[Risk and remediation priorities]
+    Q --> U
+    O --> U
+    R --> V[Intervention and market opportunities]
+    S --> V
+    U --> V
+    V --> W[Policy, service, infrastructure, and livelihood decisions]
+    W --> F
+    W --> K

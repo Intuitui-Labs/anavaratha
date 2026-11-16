@@ -1,0 +1,4 @@
+layer,path,features,crs,valid_geometry,missing_geometry,duplicate_id_count,minx,miny,maxx,maxy,date_or_snapshot_field
+district_population_join,CPH2024_district_denominators.geojson,25,EPSG:4326,25,0,0,79.52131521200005,5.918696761000149,81.8790335760001,9.83586297700009,valid_on
+osm_waste_sites,OSM_Sri_Lanka_waste_sites.geojson,118,EPSG:4326,118,0,0,79.8116443,5.9518546,81.8603452,9.7300839,osm_timestamp
+osm_receiving_environments,OSM_Sri_Lanka_receiving_environments.geojson,30208,EPSG:4326,30208,0,0,79.6427249,5.9316176,81.8787993,9.8275468,osm_timestamp

@@ -1,0 +1,54 @@
+Domain,Immediate (Hours–Months),Medium-Term (1–10 Years),Long-Term (Decades–Centuries),Temporal Gaps & Blindspots
+Water,"USGS real-time streamflow
+India-WRIS daily reservoir levels
+Aqueduct near-real-time stress","GRACE monthly groundwater anomalies
+Global Surface Water Explorer annual composites
+GRDC seasonal discharge trends","GRDC multi-century station records
+Glacial melt projections (IPCC)
+Paleo-hydrological reconstructions",Aquifer depletion often invisible for 20–50 years before surface effects. Virtual water trade temporal lag poorly understood.
+Air,"OpenAQ hourly readings
+AirNow real-time AQI
+Copernicus CAMS daily forecasts","NOAA annual CO2/CH4 trends
+Global Carbon Project annual budgets
+MODIS AOD seasonal analysis","Keeling Curve (1958–present)
+Ice core records (800,000 years)
+Global Carbon Project (1750–present)",Short-lived pollutants (PM2.5) well-tracked in real-time. Long-lived GHGs have deep history. Gap: medium-term (5-10yr) local air quality trends outside wealthy nations.
+Soil,"Seasonal soil tests (farmer-level)
+Soil moisture sensors (where deployed)","EU LUCAS 3-year survey cycle
+SOC trend analysis (5-10yr windows)
+Erosion rate monitoring","SoilGrids baseline (multi-decadal composite)
+Desertification frontiers (decade scale)
+Paleo-soil records",CRITICAL GAP: Soil changes are slowest of all ecologies. Most damage invisible for 30-100 years. Real-time soil monitoring almost nonexistent globally.
+Biosphere,"Global Forest Watch weekly alerts
+eBird daily observations
+Fire detection (FIRMS)","Living Planet Index biennial update
+IUCN Red List annual reassessments
+NDVI 5-year trend analysis","GBIF historical occurrence records
+Museum specimen databases (centuries)
+Phylogenetic diversity baselines",Population trends often have 5-10 year publication lag. Insect/invertebrate populations severely under-monitored across all timescales.
+Animal Movement,"Movebank GPS tracks (real-time)
+Citizen science roadkill reports","Migration timing shift analysis (5-10yr)
+Corridor connectivity assessments","Historical range maps (century scale)
+Paleontological migration evidence",Long-term movement baselines rare. Most GPS tracking < 20 years old. Pre-industrial movement patterns mostly unknown.
+Sound,"NPS real-time acoustic monitoring
+NOAA marine hydrophones","EU Noise Directive 5-year cycles
+Bioacoustic trend studies","Historical noise baselines almost nonexistent
+Pre-industrial soundscape: only reconstructions",SEVERE GAP: No global systematic sound monitoring. Pre-industrial baselines virtually unmeasurable. Most ecosystems have zero acoustic history.
+Visual,"VIIRS nightly satellite radiance
+Street View imagery (periodic recapture)","Nighttime light 5-year trend analysis
+Urban green view index changes","DMSP-OLS archive (1992–2013)
+Historical sky brightness records (limited)",Light pollution trends only since 1992 satellite era. Urban visual clutter has no systematic historical measurement. Billboard/signage data almost nonexistent.
+Olfactory,"EPA AirNow VOC readings
+Odor complaint databases (sporadic)","TRI / E-PRTR annual toxic release trends
+GBD health impact estimates","Almost no long-term olfactory data exists
+Chemical pollution trends (proxy only)",MOST DATA-POOR ECOLOGY. No systematic olfactory monitoring anywhere. Chemical proxy data (VOCs) available but 'smell experience' is unmeasured.
+Attention,"App usage tracking (daily screen time)
+Google Trends (weekly interest)","DataReportal annual digital reports
+ATUS annual time use
+Gallup wellbeing trends","Historical attention proxies: literacy rates, library usage, meditation tradition vitality","Attention is the newest measurable ecology. Pre-smartphone baselines sparse. Non-digital attention (contemplation, nature contact) poorly quantified."
+Pressure Reservoirs,"Real-time sensors where deployed (few)
+Satellite monitoring (wetland extent)","Ramsar site assessments
+Peatland condition surveys
+Seed bank accession counts","Paleo-ecological reconstructions
+Language vitality historical records
+Cultural practice documentation",Reservoir erosion is the LEADING indicator but the LEAST monitored. Cultural/knowledge reservoirs almost entirely unquantified. Detection usually post-collapse.

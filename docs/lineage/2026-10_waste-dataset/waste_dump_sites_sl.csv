@@ -1,0 +1,9 @@
+Site_Name,Location,Type,Area_Acres,Capacity_Status,Waste_Types,Latitude,Longitude,Adjacent_Water_Body,Environmental_Status,Operational_Status,Managed_By
+Karadiyana Dumpsite,Colombo District,Open Dump,37,Active,Municipal Solid Waste,6.8333,80.7500,Weras Ganga/Bolgoda Lake,Environmental Concern,Operational,Moratuwa Municipal Council
+Kotikawatta Dumping Site,Kolonnawa,Open Dump,N/A,Active,Domestic & Commercial Waste,6.9167,80.6667,Wetland Area,Environmental Concern,Operational,Local Authority
+Meethotamulla Dumpsite,Colombo,Open Dump,N/A,Historical,Municipal Solid Waste,6.9000,80.6500,N/A,Closed,Closed,N/A
+Budgamuwa Dumpsite,Colombo District,Open Dump,N/A,Historical,Municipal Solid Waste,N/A,N/A,N/A,Closed,Closed,N/A
+Muthurajewela Wetlands,Negombo,Informal Dump,N/A,Active,Mixed Waste,7.2167,79.8667,Negombo Lagoon,Severe Pollution,Illegal,N/A
+Kerawalapitiya Waste-to-Energy Facility,Kerawalapitiya,Waste-to-Energy Plant,10,Active,Municipal Solid Waste,6.9500,80.5833,N/A,Operational,Operational,National Authority
+Ratmalana Waste-to-Energy Facility,Ratmalana,Waste-to-Energy Plant,N/A,Planned,Municipal Solid Waste,6.8500,80.5500,N/A,Under Development,Planned,National Authority
+Kattankudy Recycling Centre,Kattankudy,Recycling Centre,N/A,Active,Recyclable Waste,7.3000,81.2500,N/A,Operational,Operational,Clean Sri Lanka Programme

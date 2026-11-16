@@ -1,0 +1,12 @@
+cluster_id_5km,feature_count,centroid_latitude,centroid_longitude,categories,named_features
+0,19,6.904190773684209,79.91884443684212,landfill;recycling;wastewater_plant,National Water Supply & Drainage Board; Pothuvil yard; Fishing Cat; Pelawatte Scrap Dealer; Hospital Plant & Equipment; pddy
+1,6,6.8706973666666675,81.05053428333333,recycling;waste_disposal,
+10,6,6.570012433333333,79.97264188333334,landfill,
+2,5,7.960297679999999,80.75847293999999,recycling;waste_disposal,
+3,4,7.29961645,80.629292975,landfill;recycling;wastewater_plant,Sewerage System Area
+8,4,6.175517625,80.16892627499999,wastewater_plant,
+5,4,6.941142050000001,80.0125146,landfill;wastewater_plant,Rubber State
+6,3,7.0963888666666675,79.86776813333334,transfer_station;waste_disposal,
+4,3,7.7069322,81.67059286666667,landfill;wastewater_plant,Batticaloa Water Treatment Plant
+7,3,9.672846866666667,80.01632226666668,recycling;waste_disposal,Kaakaitheevu Waste Collection Site
+9,3,6.5995365,80.63555236666667,landfill,

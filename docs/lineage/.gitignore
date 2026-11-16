@@ -1,0 +1,10 @@
+# Guard rails for the lineage folder: no third-party binaries or contact data here.
+*.pdf
+*.docx
+*.xlsx
+*.zip
+*.shp
+*.dbf
+*.shx
+*contacts*
+CALL_SHEET_*
