@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import { u } from '../lib/url';
+const maturity = [['Mapped', 'System, geography, actors and broad conditions identified'], ['Characterised', 'Components, histories, relationships, capacities and pressures described'], ['Connected', 'Dependencies, feedbacks and unintended effects understood across scales'], ['Testable', 'A proportionate hypothesis and learning design can be stated'], ['Actionable', 'Authority, capacity, partners, safeguards and resources suffice for a defined next step']];
+const ev = ['observed', 'measured', 'estimated', 'reported', 'planned', 'historical', 'disputed', 'inaccessible', 'unknown'];
+---
+<Base title="Method" wide>
+  <header class="space-y-2"><p class="mono-label">Method · frames</p><h1 class="text-4xl font-black tracking-tight">Frames and method</h1></header>
+  <section class="grid md:grid-cols-3 gap-4">
+    <article class="panel border-2 !border-brand-primary"><p class="mono-label">Frame C · first · lock</p><h2 class="font-bold text-lg">Syntropy first</h2><p class="text-sm">Name what is alive and generating (order, coherence, generative capacity) before cataloguing threats.</p><p class="src">phase1/FRAME_C_SYNTROPY.md</p></article>
+    <article class="panel"><p class="mono-label">Frame A · second</p><h2 class="font-bold text-lg">Use → residual → regeneration</h2><p class="text-sm">The metabolism of a living pattern.</p><p class="src">phase1/FRAME_INVERSION.md</p></article>
+    <article class="panel"><p class="mono-label">Frame B · third</p><h2 class="font-bold text-lg">Residuals that refuse</h2><p class="text-sm">Where "regeneration" is the cover story. Stage exit needs at least one B refusal case.</p><p class="src">phase1/FRAME_INVERSION.md</p></article>
+  </section>
+  <figure class="panel"><img src={u('/diagrams/a_concept_mindmap.png')} alt="Concept map as a tree: Anavaratha branches to three domains, frames C, A, B, glossary, shared grammar, and locks." class="w-full h-auto" /><figcaption class="src">charter §3, §5 · GLOSSARY_v0 · FRAME files</figcaption></figure>
+  <section class="grid md:grid-cols-2 gap-6">
+    <div class="panel"><h2 class="font-bold">Maturity scale (charter)</h2><ol class="mt-2 space-y-1 text-sm">{maturity.map(([l, d], i) => <li><strong>{i + 1}. {l}</strong>: {d}</li>)}</ol><p class="text-sm mt-2">Sensemaking ≈ Mapped/Characterised (OVERLAP_MAP §2: to reconcile with STAGE_EXIT_CRITERIA).</p></div>
+    <div class="panel"><h2 class="font-bold">Evidence status</h2><p class="mt-2 flex flex-wrap gap-1.5">{ev.map((e) => <span class="chip">{e}</span>)}</p><p class="text-sm mt-2">Missing evidence = <em>unknown</em> + a retrieval request, not absence.</p><p class="src">charter §3 · [WC] Enforcement map</p></div>
+  </section>
+  <figure class="panel"><h2 class="font-bold mb-2">Responsibility chain: 11 actor classes</h2><img src={u('/diagrams/d_responsibility_chain.png')} alt="Accountability chain duty, capacity, detection, enforcement, remedy, persistence, with 11 actor classes. Dashed grey links are keywords found in each actor's formal-role text, not judgements." class="w-full h-auto" /><figcaption class="src">Core §3F · [WC] Enforcement Institution and Capacity Map v0.1. Dashed links = role-text keyword matches. Inferred, not judgements.</figcaption></figure>
+</Base>

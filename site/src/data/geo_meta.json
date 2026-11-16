@@ -1,0 +1,11 @@
+{
+ "entities_total": 487,
+ "drop_points_total": 352,
+ "entities_mapped": 425,
+ "entities_geocoded_by_atlas": 41,
+ "drop_points_mapped": 348,
+ "drop_points_geocoded_by_atlas": 24,
+ "entities_not_mapped": 62,
+ "drop_points_not_mapped": 4,
+ "features": 773
+}

@@ -1,0 +1,2601 @@
+{
+ "meta": {
+  "generated": "2026-11-16 (Asia/Colombo)",
+  "note": "Every node/edge has src. institution→chain edges are keyword matches in role text, not judgements.",
+  "counts": {
+   "root": 1,
+   "domain": 3,
+   "frame": 3,
+   "glossary": 8,
+   "shared_grammar": 9,
+   "legacy_concept": 27,
+   "current_object": 27,
+   "chain_link": 6,
+   "institution": 11,
+   "compliance_step": 11,
+   "org": 14,
+   "project": 41,
+   "doc": 13
+  }
+ },
+ "nodes": [
+  {
+   "id": "anavaratha",
+   "label": "Anavaratha",
+   "kind": "root",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §1"
+  },
+  {
+   "id": "dom1",
+   "label": "Domain I · Freedom from Waste",
+   "kind": "domain",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §5",
+   "question": "reduce involuntary exposure to residual burdens without transferring them"
+  },
+  {
+   "id": "dom2",
+   "label": "Domain II · Material Afterlives",
+   "kind": "domain",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §5",
+   "question": "when does \"no longer needed by me\" become \"available for another\""
+  },
+  {
+   "id": "dom3",
+   "label": "Domain III · Ecological Flourishing",
+   "kind": "domain",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §5",
+   "question": "conditions that let ecological systems regenerate"
+  },
+  {
+   "id": "frameA",
+   "label": "Frame A · use → residual → regeneration",
+   "kind": "frame",
+   "src": "neevsk-research/anavaratha/phase1/FRAME_INVERSION.md §Frame A"
+  },
+  {
+   "id": "frameB",
+   "label": "Frame B · residuals that refuse regeneration",
+   "kind": "frame",
+   "src": "neevsk-research/anavaratha/phase1/FRAME_INVERSION.md §Frame B"
+  },
+  {
+   "id": "frameC",
+   "label": "Frame C · syntropy first (lock)",
+   "kind": "frame",
+   "src": "neevsk-research/anavaratha/phase1/FRAME_C_SYNTROPY.md §Lock"
+  },
+  {
+   "id": "g_capability",
+   "label": "Capability",
+   "kind": "glossary",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "id": "g_use",
+   "label": "Use",
+   "kind": "glossary",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "id": "g_residuality",
+   "label": "Residuality",
+   "kind": "glossary",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "id": "g_regeneration",
+   "label": "Regeneration",
+   "kind": "glossary",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "id": "g_pressure",
+   "label": "Pressure",
+   "kind": "glossary",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "id": "g_unit_of_analysis",
+   "label": "Unit of analysis",
+   "kind": "glossary",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "id": "g_evidence",
+   "label": "Evidence",
+   "kind": "glossary",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "id": "g_stage_exit_sensemaking_",
+   "label": "Stage exit (Sensemaking)",
+   "kind": "glossary",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "id": "sg_material",
+   "label": "Material",
+   "kind": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3 Shared grammar"
+  },
+  {
+   "id": "sg_flow",
+   "label": "Flow",
+   "kind": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3 Shared grammar"
+  },
+  {
+   "id": "sg_stock",
+   "label": "Stock",
+   "kind": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3 Shared grammar"
+  },
+  {
+   "id": "sg_boundary",
+   "label": "Boundary",
+   "kind": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3 Shared grammar"
+  },
+  {
+   "id": "sg_capacity",
+   "label": "Capacity",
+   "kind": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3 Shared grammar"
+  },
+  {
+   "id": "sg_dissipation",
+   "label": "Dissipation",
+   "kind": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3 Shared grammar"
+  },
+  {
+   "id": "sg_afterlife",
+   "label": "Afterlife",
+   "kind": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3 Shared grammar"
+  },
+  {
+   "id": "sg_receiver",
+   "label": "Receiver",
+   "kind": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3 Shared grammar"
+  },
+  {
+   "id": "sg_evidence_status",
+   "label": "Evidence status",
+   "kind": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3 Shared grammar"
+  },
+  {
+   "id": "lg_premise",
+   "label": "Project premise / identity",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Charter final; projects.ts 2026-08-29"
+  },
+  {
+   "id": "cu_premise",
+   "label": "PROBLEM_FRAME.md",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_name",
+   "label": "Name meaning",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "What Does Anavaratha Mean zip; charter draft vs final"
+  },
+  {
+   "id": "cu_name",
+   "label": "BRIEF Q1 gate",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_three_domains",
+   "label": "Three domains",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Charter; Core Package"
+  },
+  {
+   "id": "cu_three_domains",
+   "label": "(none in phase1)",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_two_dirs",
+   "label": "Two directions → Freedom to Flourish",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Project Package"
+  },
+  {
+   "id": "cu_two_dirs",
+   "label": "(superseded)",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_urr",
+   "label": "Use → residual → regeneration",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "public premise"
+  },
+  {
+   "id": "cu_urr",
+   "label": "Frame A",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_displacement",
+   "label": "Displacement test / accountable transition",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Feb evaluation; charter §6"
+  },
+  {
+   "id": "cu_displacement",
+   "label": "Frame B",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_negentropy",
+   "label": "Negentropy as cautious metaphor",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Charter §4; Core §12; Feb L1"
+  },
+  {
+   "id": "cu_negentropy",
+   "label": "Frame C syntropy-first",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_exergy",
+   "label": "Exergy / accounting identity / holarchy",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Feb L1"
+  },
+  {
+   "id": "cu_exergy",
+   "label": "(none)",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_reservoirs",
+   "label": "Pressure reservoirs / visibility gradient",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Feb L1"
+  },
+  {
+   "id": "cu_reservoirs",
+   "label": "QUESTIONS Q1, Q6",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_leverage",
+   "label": "Leverage points (Meadows; A–F)",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Feb; Core Package"
+  },
+  {
+   "id": "cu_leverage",
+   "label": "(premature under Sensemaking)",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_intervention",
+   "label": "Intervention typology + methodology",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Feb 2026-02-24 docs"
+  },
+  {
+   "id": "cu_intervention",
+   "label": "KILL_LOG items 1,4",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_evaluation",
+   "label": "Evaluation framework",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Feb"
+  },
+  {
+   "id": "cu_evaluation",
+   "label": "(none)",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_maturity",
+   "label": "Maturity model Mapped→Actionable",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Charter §3"
+  },
+  {
+   "id": "cu_maturity",
+   "label": "STAGE_EXIT_CRITERIA.md",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_sequence",
+   "label": "Foundational sequence desk→…→action",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Charter §3"
+  },
+  {
+   "id": "cu_sequence",
+   "label": "EVIDENCE_CATALOG.md posture",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_evidence_vocab",
+   "label": "Evidence status vocabulary",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Charter §3"
+  },
+  {
+   "id": "cu_evidence_vocab",
+   "label": "listed vs verified",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_capacity_chain",
+   "label": "Capacity chain / no public evidence system",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Core Package"
+  },
+  {
+   "id": "cu_capacity_chain",
+   "label": "LEDGER §3–4",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_compost",
+   "label": "WP compost 157 of 2,775 t/month",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Core Package (Manipura 2025)"
+  },
+  {
+   "id": "cu_compost",
+   "label": "LEDGER (b) counts compost as gain",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_facility_reg",
+   "label": "Facility registers [WC]",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "waste_cycles zip"
+  },
+  {
+   "id": "cu_facility_reg",
+   "label": "DIRECTORY geojson 707 features",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_operator_dir",
+   "label": "15-company operator list",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Comprehensive Dataset zip (Oct)"
+  },
+  {
+   "id": "cu_operator_dir",
+   "label": "DIRECTORY 487 operators",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_platform",
+   "label": "\"Waste ecosystem platform\" dashboard",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "ideas.md, *.tsx (Oct)"
+  },
+  {
+   "id": "cu_platform",
+   "label": "KILL_LOG item 1",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_cases",
+   "label": "Meethotamulla / Kerawalapitiya / Karadiyana",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Core Package + [WC]"
+  },
+  {
+   "id": "cu_cases",
+   "label": "LEDGER L10, L20–22",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_data_request",
+   "label": "Data request pack (unsent drafts)",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "[WC]"
+  },
+  {
+   "id": "cu_data_request",
+   "label": "call sheets (operator-level)",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_afterlives_ev",
+   "label": "Material Afterlives evidence",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Project Package 05_circulation"
+  },
+  {
+   "id": "cu_afterlives_ev",
+   "label": "household-route research",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_ecology_atlas",
+   "label": "Cultivation atlas / Osu Uyana",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Project Package"
+  },
+  {
+   "id": "cu_ecology_atlas",
+   "label": "(none; QS1 Dry Zone only)",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_institutions",
+   "label": "Institutions as coordination / responsibility chain",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Core §3C/§3F; [WC] map"
+  },
+  {
+   "id": "cu_institutions",
+   "label": "DIRECTORY + LEDGER (unaware)",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_tooling",
+   "label": "Tooling (DuckDB/Parquet, data/raw→processed)",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "Feb agent_context"
+  },
+  {
+   "id": "cu_tooling",
+   "label": "(none)",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "lg_peace_valley",
+   "label": "Peace Valley boundary",
+   "kind": "legacy_concept",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 / §1",
+   "legacy_source": "—"
+  },
+  {
+   "id": "cu_peace_valley",
+   "label": "BOUNDARY_MEMO (lock)",
+   "kind": "current_object",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "id": "ch_duty",
+   "label": "duty",
+   "kind": "chain_link",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/ANAVARATHA_DOCUMENTATION_SUITE_V0_1__unzipped/anavaratha_documentation_suite/domain_frameworks/ANAVARATHA_LEARNING_LEVERAGE_ACTION_ARCHITECTURE_V0_1.md §F"
+  },
+  {
+   "id": "ch_capacity",
+   "label": "capacity",
+   "kind": "chain_link",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/ANAVARATHA_DOCUMENTATION_SUITE_V0_1__unzipped/anavaratha_documentation_suite/domain_frameworks/ANAVARATHA_LEARNING_LEVERAGE_ACTION_ARCHITECTURE_V0_1.md §F"
+  },
+  {
+   "id": "ch_detection",
+   "label": "detection",
+   "kind": "chain_link",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/ANAVARATHA_DOCUMENTATION_SUITE_V0_1__unzipped/anavaratha_documentation_suite/domain_frameworks/ANAVARATHA_LEARNING_LEVERAGE_ACTION_ARCHITECTURE_V0_1.md §F"
+  },
+  {
+   "id": "ch_enforcement",
+   "label": "enforcement",
+   "kind": "chain_link",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/ANAVARATHA_DOCUMENTATION_SUITE_V0_1__unzipped/anavaratha_documentation_suite/domain_frameworks/ANAVARATHA_LEARNING_LEVERAGE_ACTION_ARCHITECTURE_V0_1.md §F"
+  },
+  {
+   "id": "ch_remedy",
+   "label": "remedy",
+   "kind": "chain_link",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/ANAVARATHA_DOCUMENTATION_SUITE_V0_1__unzipped/anavaratha_documentation_suite/domain_frameworks/ANAVARATHA_LEARNING_LEVERAGE_ACTION_ARCHITECTURE_V0_1.md §F"
+  },
+  {
+   "id": "ch_persistence",
+   "label": "persistence",
+   "kind": "chain_link",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/ANAVARATHA_DOCUMENTATION_SUITE_V0_1__unzipped/anavaratha_documentation_suite/domain_frameworks/ANAVARATHA_LEARNING_LEVERAGE_ACTION_ARCHITECTURE_V0_1.md §F"
+  },
+  {
+   "id": "inst01",
+   "label": "Central Environmental Authority",
+   "kind": "institution",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "role": "Administer environmental law and regulations; set standards; coordinate pollution regulation; inspect, investigate complaints, issue or oversee directions and licences; require local authorities to act",
+   "capacity_needed": "Inspectors, laboratories, legal officers, transport, complaint systems, case management, data, budget, follow-up",
+   "evidence_to_seek": "Staffing, inspections, notices, licences, complaints, prosecutions, laboratory records, annual reports"
+  },
+  {
+   "id": "inst02",
+   "label": "Ministry of Environment",
+   "kind": "institution",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "role": "Policy, national action plans, coordination, steering and monitoring architecture",
+   "capacity_needed": "Policy implementation unit, cross-agency coordination, budget, reporting and review",
+   "evidence_to_seek": "Action-plan progress reports, committee minutes, budgets, KPI records"
+  },
+  {
+   "id": "inst03",
+   "label": "Municipal councils, urban councils, and pradeshiya sabhas",
+   "kind": "institution",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "role": "Local waste collection, transport, disposal, local services, local by-laws and operational decisions",
+   "capacity_needed": "Vehicles, drivers, fuel, routes, staff, land, facilities, procurement, recurrent finance, public communication",
+   "evidence_to_seek": "Collection logs, route sheets, vehicle downtime, payroll, budgets, council minutes, disposal records"
+  },
+  {
+   "id": "inst04",
+   "label": "Western Province Waste Management Authority or equivalent provincial body",
+   "kind": "institution",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "role": "Provincial coordination, waste-management programs, technical and oversight functions",
+   "capacity_needed": "Technical staff, coordination authority, project finance, data integration, enforcement escalation",
+   "evidence_to_seek": "Province-wide plans, reports, facility oversight, directions, monitoring and budgets"
+  },
+  {
+   "id": "inst05",
+   "label": "Urban Development Authority and land authorities",
+   "kind": "institution",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "role": "Land allocation, development permissions, spatial planning, and land-use decisions that affect disposal sites",
+   "capacity_needed": "Land records, planning review, environmental safeguards, monitoring, enforcement",
+   "evidence_to_seek": "Allocations, approvals, conditions, maps, inspection reports"
+  },
+  {
+   "id": "inst06",
+   "label": "Divisional and district administration",
+   "kind": "institution",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "role": "Administrative coordination and district-level agencies; District Environmental Agency structure under the Act",
+   "capacity_needed": "Convening authority, records, coordination, complaint escalation",
+   "evidence_to_seek": "District agency records, minutes, referrals, inspections"
+  },
+  {
+   "id": "inst07",
+   "label": "Police",
+   "kind": "institution",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "role": "Criminal investigation and support where offences, obstruction, public order, or other criminal conduct is involved",
+   "capacity_needed": "Investigation, evidence preservation, transport, staffing, coordination with regulators and courts",
+   "evidence_to_seek": "Complaints, entries, case files, arrests, charges, evidence chain"
+  },
+  {
+   "id": "inst08",
+   "label": "Magistrate’s Courts",
+   "kind": "institution",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "role": "Summary trials and orders under environmental offences; fines, imprisonment, continuing fines, corrective and restoration orders where authorized",
+   "capacity_needed": "Timely case listing, evidence assessment, enforceable orders, records, monitoring of compliance",
+   "evidence_to_seek": "Case numbers, charges, decisions, sentences, payment, restoration orders"
+  },
+  {
+   "id": "inst09",
+   "label": "Forest, wildlife, wetland, and conservation agencies",
+   "kind": "institution",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "role": "Protection of ecological receptors and protected areas; approvals, monitoring, and referrals",
+   "capacity_needed": "Rangers, ecological monitoring, maps, boundary data, legal coordination",
+   "evidence_to_seek": "Site records, permits, complaints, species/ecosystem monitoring, referrals"
+  },
+  {
+   "id": "inst10",
+   "label": "Informal collectors, community organizations, and private operators",
+   "kind": "institution",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "role": "Recovery, collection, sorting, transport, market linkage, local monitoring",
+   "capacity_needed": "Safe working conditions, buyer access, equipment, legal recognition, data capture",
+   "evidence_to_seek": "Purchase records, route evidence, worker surveys, contracts, output records"
+  },
+  {
+   "id": "inst11",
+   "label": "Courts, public-interest organizations, and affected communities",
+   "kind": "institution",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "role": "Accountability, litigation, complaints, evidence generation, and remedy claims",
+   "capacity_needed": "Access to information, legal support, documentation, public voice",
+   "evidence_to_seek": "Petitions, judgments, photographs, testimonies, monitoring reports"
+  },
+  {
+   "id": "cp01",
+   "label": "1. Rule clarity",
+   "kind": "compliance_step",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "id": "cp02",
+   "label": "2. Boundary clarity",
+   "kind": "compliance_step",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "id": "cp03",
+   "label": "3. Detection",
+   "kind": "compliance_step",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "id": "cp04",
+   "label": "4. Attribution",
+   "kind": "compliance_step",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "id": "cp05",
+   "label": "5. Evidence integrity",
+   "kind": "compliance_step",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "id": "cp06",
+   "label": "6. Authority action",
+   "kind": "compliance_step",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "id": "cp07",
+   "label": "7. Adjudication",
+   "kind": "compliance_step",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "id": "cp08",
+   "label": "8. Sanction or remedy",
+   "kind": "compliance_step",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "id": "cp09",
+   "label": "9. Implementation",
+   "kind": "compliance_step",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "id": "cp10",
+   "label": "10. Verification",
+   "kind": "compliance_step",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "id": "cp11",
+   "label": "11. Persistence",
+   "kind": "compliance_step",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "id": "org_world_bank",
+   "label": "World Bank",
+   "kind": "org",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv funder_implementer (string match)"
+  },
+  {
+   "id": "org_jica",
+   "label": "JICA",
+   "kind": "org",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv funder_implementer (string match)"
+  },
+  {
+   "id": "org_adb",
+   "label": "ADB",
+   "kind": "org",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv funder_implementer (string match)"
+  },
+  {
+   "id": "org_koica_korea",
+   "label": "KOICA / Korea",
+   "kind": "org",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv funder_implementer (string match)"
+  },
+  {
+   "id": "org_undp",
+   "label": "UNDP",
+   "kind": "org",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv funder_implementer (string match)"
+  },
+  {
+   "id": "org_unep_iges",
+   "label": "UNEP / IGES",
+   "kind": "org",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv funder_implementer (string match)"
+  },
+  {
+   "id": "org_eu",
+   "label": "EU",
+   "kind": "org",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv funder_implementer (string match)"
+  },
+  {
+   "id": "org_usaid",
+   "label": "USAID",
+   "kind": "org",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv funder_implementer (string match)"
+  },
+  {
+   "id": "org_cea",
+   "label": "CEA",
+   "kind": "org",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv funder_implementer (string match)"
+  },
+  {
+   "id": "org_wma_western_province_",
+   "label": "WMA (Western Province)",
+   "kind": "org",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv funder_implementer (string match)"
+  },
+  {
+   "id": "org_cmc",
+   "label": "CMC",
+   "kind": "org",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv funder_implementer (string match)"
+  },
+  {
+   "id": "org_uda",
+   "label": "UDA",
+   "kind": "org",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv funder_implementer (string match)"
+  },
+  {
+   "id": "org_min_environment_urban_dev",
+   "label": "Min. Environment / Urban Dev",
+   "kind": "org",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv funder_implementer (string match)"
+  },
+  {
+   "id": "org_local_authorities",
+   "label": "Local authorities",
+   "kind": "org",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv funder_implementer (string match)"
+  },
+  {
+   "id": "prj_L01",
+   "label": "L01 Colombo Environmental Improvement Project (CEIP), solid-waste component",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L01",
+   "type": "donor loan",
+   "years_text": "1995-2001",
+   "start": 1995,
+   "end": 2001,
+   "pattern": "a",
+   "flag": null
+  },
+  {
+   "id": "prj_L02",
+   "label": "L02 Study on Improvement of SWM in Secondary Cities",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L02",
+   "type": "donor study",
+   "years_text": "2002-2003",
+   "start": 2002,
+   "end": 2003,
+   "pattern": "c",
+   "flag": null
+  },
+  {
+   "id": "prj_L03",
+   "label": "L03 National SWM policy cycle: National Strategy (2000) -> National Policy on SWM (2007) -> National Policy on Waste Management (2019/2020)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L03",
+   "type": "national policy",
+   "years_text": "2000, 2003, 2007, 2019-2020",
+   "start": 2000,
+   "end": 2020,
+   "pattern": "a",
+   "flag": null
+  },
+  {
+   "id": "prj_L04",
+   "label": "L04 Waste Management Authority, Western Province (WMA)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L04",
+   "type": "institution",
+   "years_text": "Statute No. 9 of 1999 (JICA table) / Dec 2000 statute (WB ICR) / 'established in 2005' (WMA via Mongabay) - conflicting",
+   "start": 1999,
+   "end": 2005,
+   "pattern": "c",
+   "flag": "conflicting establishment dates (ledger)"
+  },
+  {
+   "id": "prj_L05",
+   "label": "L05 Local Government Infrastructure Improvement Project (LGIIP)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L05",
+   "type": "donor loan",
+   "years_text": "2005 (approved 24 Nov 2005) - 2013",
+   "start": 2005,
+   "end": 2013,
+   "pattern": "a",
+   "flag": null
+  },
+  {
+   "id": "prj_L06",
+   "label": "L06 Capacity Upgrading Project for the National SWM Support Center (CUP-NSWMSC)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L06",
+   "type": "donor TA",
+   "years_text": "Mar 2007 - Feb 2011",
+   "start": 2007,
+   "end": 2011,
+   "pattern": "b+c",
+   "flag": null
+  },
+  {
+   "id": "prj_L07",
+   "label": "L07 Polythene <=20 micron ban (first issue)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L07",
+   "type": "regulation",
+   "years_text": "2006",
+   "start": 2006,
+   "end": 2006,
+   "pattern": "a",
+   "flag": null
+  },
+  {
+   "id": "prj_L08",
+   "label": "L08 Pilisaru National Solid Waste Management Project",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L08",
+   "type": "national programme",
+   "years_text": "2008-2010 planned; extended to 2013; phase 2 2014-2018",
+   "start": 2008,
+   "end": 2018,
+   "pattern": "a+b",
+   "flag": null
+  },
+  {
+   "id": "prj_L09",
+   "label": "L09 National Environmental (Municipal Solid Waste) Regulations No. 1 of 2009",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L09",
+   "type": "regulation",
+   "years_text": "2009",
+   "start": 2009,
+   "end": 2009,
+   "pattern": "a+c",
+   "flag": null
+  },
+  {
+   "id": "prj_L10",
+   "label": "L10 Meethotamulla 'temporary' dump (CMC) after Bloemendhal closure",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L10",
+   "type": "facility (national/LA)",
+   "years_text": "Apr 2009 - Apr 2017",
+   "start": 2009,
+   "end": 2017,
+   "pattern": "a",
+   "flag": null
+  },
+  {
+   "id": "prj_L11",
+   "label": "L11 Environmental Remediation Programme (ERP)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L11",
+   "type": "donor project",
+   "years_text": "2010-2013",
+   "start": 2010,
+   "end": 2013,
+   "pattern": "c",
+   "flag": null
+  },
+  {
+   "id": "prj_L12",
+   "label": "L12 SATREPS: Pollution control & environmental restoration of waste landfill sites",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L12",
+   "type": "donor research",
+   "years_text": "Apr 2011 - Mar 2016",
+   "start": 2011,
+   "end": 2016,
+   "pattern": "c",
+   "flag": null
+  },
+  {
+   "id": "prj_L13",
+   "label": "L13 Local Government Enhancement Sector Project (LGES) + Additional Financing",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L13",
+   "type": "donor loan",
+   "years_text": "2011-2025",
+   "start": 2011,
+   "end": 2025,
+   "pattern": "b+c",
+   "flag": null
+  },
+  {
+   "id": "prj_L14",
+   "label": "L14 Dompe (Maligawatte) sanitary landfill / integrated SWM facility",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L14",
+   "type": "donor grant",
+   "years_text": "opened 27 Nov 2014",
+   "start": 2014,
+   "end": 2014,
+   "pattern": "b",
+   "flag": null
+  },
+  {
+   "id": "prj_L15",
+   "label": "L15 Construction of Solid Waste Disposal Facilities Project (Korean EDCF loan)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L15",
+   "type": "donor loan",
+   "years_text": "audited 2012",
+   "start": 2012,
+   "end": 2012,
+   "pattern": "c",
+   "flag": null
+  },
+  {
+   "id": "prj_L16",
+   "label": "L16 Metro Colombo SWM Project - Aruwakkalu sanitary landfill + Kelaniya transfer + rail",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L16",
+   "type": "national megaproject",
+   "years_text": "conceived 2014; contract 2018; planned completion 30 Jun 2019; trial Aug 2024; not in full operation Nov 2026",
+   "start": 2014,
+   "end": 2026,
+   "pattern": "a",
+   "flag": null
+  },
+  {
+   "id": "prj_L17",
+   "label": "L17 Ganewadiya landfill feasibility + EIA (precursor to Aruwakkalu)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L17",
+   "type": "national study",
+   "years_text": "2014-2016",
+   "start": 2014,
+   "end": 2016,
+   "pattern": "a",
+   "flag": null
+  },
+  {
+   "id": "prj_L18",
+   "label": "L18 Matara MC Kotawila compost yard (Pilisaru) -> biogas waste-to-energy",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L18",
+   "type": "national/LA facility",
+   "years_text": "compost 2009-2012; biogas contract 8 Aug 2014, due 10 Mar 2015",
+   "start": 2009,
+   "end": 2015,
+   "pattern": "a",
+   "flag": null
+  },
+  {
+   "id": "prj_L19",
+   "label": "L19 Kawashima screw-type compost pilot + 9 replicated plants",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L19",
+   "type": "donor pilot + national replication",
+   "years_text": "2015-2017 pilot; replication after",
+   "start": 2015,
+   "end": 2017,
+   "pattern": "b+c",
+   "flag": null
+  },
+  {
+   "id": "prj_L20",
+   "label": "L20 Karadiyana waste-to-energy (Fairway Waste Management)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L20",
+   "type": "PPP",
+   "years_text": "RFP 27 Dec 2015; stalled 2019; again 'for Cabinet approval' Jul 2026",
+   "start": 2015,
+   "end": 2026,
+   "pattern": "a",
+   "flag": null
+  },
+  {
+   "id": "prj_L21",
+   "label": "L21 Kerawalapitiya waste-to-energy plant (Western Power / Aitken Spence)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L21",
+   "type": "PPP facility",
+   "years_text": "construction from 10 Aug 2017; operating 2021",
+   "start": 2017,
+   "end": 2021,
+   "pattern": "b",
+   "flag": null
+  },
+  {
+   "id": "prj_L22",
+   "label": "L22 Kerawalapitiya waste disposal yard ('temporary' post-Meethotamulla site)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L22",
+   "type": "facility",
+   "years_text": "2017-present",
+   "start": 2017,
+   "end": 2017,
+   "pattern": "a",
+   "flag": null
+  },
+  {
+   "id": "prj_L23",
+   "label": "L23 Mandatory household segregation (2016) + Sept 2017 CEA gazettes (polythene re-ban, open-burning ban, EPS ban)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L23",
+   "type": "regulation",
+   "years_text": "Nov 2016; 1 Sep 2017",
+   "start": 2016,
+   "end": 2017,
+   "pattern": "a",
+   "flag": null
+  },
+  {
+   "id": "prj_L24",
+   "label": "L24 Extended Producer Responsibility (EPR): 2017 legislation -> 2026 CEA EPR workshop",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L24",
+   "type": "regulation",
+   "years_text": "2017; 2018-2021; Sep-Oct 2026",
+   "start": 2017,
+   "end": 2026,
+   "pattern": "a",
+   "flag": null
+  },
+  {
+   "id": "prj_L25",
+   "label": "L25 Municipal Waste Recycling Program (MWRP) - Sri Lanka grants",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L25",
+   "type": "donor grants",
+   "years_text": "Oct 2017 - May 2021",
+   "start": 2017,
+   "end": 2021,
+   "pattern": "b+c",
+   "flag": null
+  },
+  {
+   "id": "prj_L26",
+   "label": "L26 Pollution Control and Reduction of Environmental Burden in SWM",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L26",
+   "type": "donor TA",
+   "years_text": "2017-2019",
+   "start": 2017,
+   "end": 2019,
+   "pattern": "c",
+   "flag": null
+  },
+  {
+   "id": "prj_L27",
+   "label": "L27 Western Province SWM Master Plan (+ MSW database)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L27",
+   "type": "donor TA",
+   "years_text": "2019-2023",
+   "start": 2019,
+   "end": 2023,
+   "pattern": "c",
+   "flag": null
+  },
+  {
+   "id": "prj_L28",
+   "label": "L28 Scaling up Sustainable and Low-Carbon MSW Management and Resource Recovery (phase 1)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L28",
+   "type": "donor project",
+   "years_text": "inception Nov 2022",
+   "start": 2022,
+   "end": 2022,
+   "pattern": "c",
+   "flag": null
+  },
+  {
+   "id": "prj_L29",
+   "label": "L29 Scale-up and Sustain the Low-Carbon MSW Management and Resource Recovery (phase 2)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L29",
+   "type": "donor project",
+   "years_text": "IATI 2 Sep 2025 - 31 Dec 2027; launched 30 Jan 2026 (3 yrs)",
+   "start": 2025,
+   "end": 2027,
+   "pattern": "a (re-uses half-collected framing; demo site Balangoda already a known composting success)",
+   "flag": null
+  },
+  {
+   "id": "prj_L30",
+   "label": "L30 Developing Sustainable Integrated SWM Project in Uva and Northern Provinces",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L30",
+   "type": "donor grant",
+   "years_text": "signed Dec 2024; 5 years (IATI related activity 2024-2028)",
+   "start": 2024,
+   "end": 2028,
+   "pattern": "c",
+   "flag": null
+  },
+  {
+   "id": "prj_L31",
+   "label": "L31 LKA-TCCF Plastics Circularity",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L31",
+   "type": "donor project",
+   "years_text": "Nov 2024 - Oct 2027",
+   "start": 2024,
+   "end": 2027,
+   "pattern": "c",
+   "flag": null
+  },
+  {
+   "id": "prj_L32",
+   "label": "L32 Fostering Sustainable Economic Recovery through Improved Biodiversity and Sustainable Waste management",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L32",
+   "type": "donor project",
+   "years_text": "2024-2033 (decision); 2026-2029 contract",
+   "start": 2024,
+   "end": 2033,
+   "pattern": "c",
+   "flag": null
+  },
+  {
+   "id": "prj_L33",
+   "label": "L33 Infectious (medical) waste management improvement plan (grant)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L33",
+   "type": "donor grant",
+   "years_text": "2023-",
+   "start": 2023,
+   "end": 2023,
+   "pattern": "c",
+   "flag": null
+  },
+  {
+   "id": "prj_L34",
+   "label": "L34 UNEP-IETC / IGES-CCET technical work (Negombo status report 2019; composting cases 2020; dumpsite closure guideline 2021; country report 2024)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L34",
+   "type": "donor knowledge products",
+   "years_text": "2019-2024",
+   "start": 2019,
+   "end": 2024,
+   "pattern": "b+c",
+   "flag": null
+  },
+  {
+   "id": "prj_L35",
+   "label": "L35 Single-use plastic bans 2021 (sachets <20 ml, PET/PVC agrochemical packaging, etc.)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L35",
+   "type": "regulation",
+   "years_text": "2021",
+   "start": 2021,
+   "end": 2021,
+   "pattern": "a+c",
+   "flag": null
+  },
+  {
+   "id": "prj_L36",
+   "label": "L36 Clean Sri Lanka programme (broader than waste)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L36",
+   "type": "national programme",
+   "years_text": "launched 1 Jan 2025",
+   "start": 2025,
+   "end": 2025,
+   "pattern": "c",
+   "flag": null
+  },
+  {
+   "id": "prj_L37",
+   "label": "L37 'Pivithuru Purawara' National Waste Management Programme",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L37",
+   "type": "national programme",
+   "years_text": "2026-2029",
+   "start": 2026,
+   "end": 2029,
+   "pattern": "a",
+   "flag": null
+  },
+  {
+   "id": "prj_L38",
+   "label": "L38 Balangoda UC composting & resource recovery",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L38",
+   "type": "local initiative (counterexample)",
+   "years_text": "2000s-2010s",
+   "start": 2000,
+   "end": 2019,
+   "pattern": "b",
+   "flag": "ledger gives decades only (\"2000s-2010s\"); bar spans 2000–2019 and is approximate"
+  },
+  {
+   "id": "prj_L39",
+   "label": "L39 Weligama UC composting",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L39",
+   "type": "local initiative (counterexample)",
+   "years_text": "pre-2007 onward",
+   "start": 2007,
+   "end": 2007,
+   "pattern": "b",
+   "flag": null
+  },
+  {
+   "id": "prj_L40",
+   "label": "L40 Gohagoda dumpsite rehabilitation & integrated SWM (Kandy MC)",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L40",
+   "type": "LA project",
+   "years_text": "2011 EIA - ",
+   "start": 2011,
+   "end": 2011,
+   "pattern": "a",
+   "flag": null
+  },
+  {
+   "id": "prj_L41",
+   "label": "L41 PBF/IRF-313 Promoting Women's Engagement in Waste Management to Prevent Conflict",
+   "kind": "project",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L41",
+   "type": "donor project",
+   "years_text": "not found (IATI dates 2006-2030 are placeholders)",
+   "start": null,
+   "end": null,
+   "pattern": "c",
+   "flag": "IATI dates are placeholders (ledger says not found)"
+  },
+  {
+   "id": "d_concept",
+   "label": "Concept Doc (Claude Project)",
+   "kind": "doc",
+   "src": "anavaratha-legacy/raw/zips/claudeexport_neevsk_projects-000__unzipped/projects/019c7a5f-75d3-71d4-947e-a186b780585a.json",
+   "date": "2026-02-20",
+   "layer": "L1"
+  },
+  {
+   "id": "d_feb24",
+   "label": "Feb framework docs (8) + data-domain map",
+   "kind": "doc",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/files__unzipped/*",
+   "date": "2026-02-24",
+   "layer": "L1"
+  },
+  {
+   "id": "d_core",
+   "label": "Core Package V0_1",
+   "kind": "doc",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CORE_PACKAGE_V0_1__unzipped/",
+   "date": "2026-08-22",
+   "layer": "L2"
+  },
+  {
+   "id": "d_wc",
+   "label": "Waste-cycles [WC] institution/enforcement layer",
+   "kind": "doc",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/",
+   "date": "2026-08-25",
+   "layer": "L2"
+  },
+  {
+   "id": "d_proj",
+   "label": "Project Package",
+   "kind": "doc",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_PROJECT_PACKAGE__unzipped/",
+   "date": "2026-08-25",
+   "layer": "L2"
+  },
+  {
+   "id": "d_charter",
+   "label": "Charter V0.1 final",
+   "kind": "doc",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md",
+   "date": "2026-08-29",
+   "layer": "L2"
+  },
+  {
+   "id": "d_web",
+   "label": "intuitui-web projects.ts + SystemLifecycle",
+   "kind": "doc",
+   "src": "anavaratha-legacy/raw/github/*/src_lib_projects.ts.snippet.txt",
+   "date": "2026-08-29",
+   "layer": "L3"
+  },
+  {
+   "id": "d_repo",
+   "label": "Public repo Phase 1 pack",
+   "kind": "doc",
+   "src": "anavaratha-legacy/raw/github/Intuitui-Labs_anavaratha__gitlog.txt",
+   "date": "2026-09-22",
+   "layer": "C"
+  },
+  {
+   "id": "d_name",
+   "label": "\"What Does Anavaratha Mean\" export",
+   "kind": "doc",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/What Does _Anavaratha_ Mean_.zip",
+   "date": "2026-10-04",
+   "layer": "L3"
+  },
+  {
+   "id": "d_dataset",
+   "label": "Comprehensive Dataset (platform brainstorm)",
+   "kind": "doc",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/Comprehensive Dataset on Waste Management in Sri Lanka.zip",
+   "date": "2026-10-04",
+   "layer": "L3"
+  },
+  {
+   "id": "d_initdoc",
+   "label": "docs/initiatives/anavaratha.md",
+   "kind": "doc",
+   "src": "anavaratha-legacy/raw/intuitui-web/anavaratha.md",
+   "date": "2026-10-16",
+   "layer": "L3"
+  },
+  {
+   "id": "d_dir",
+   "label": "Directory + ledger + desk notes (unpushed)",
+   "kind": "doc",
+   "src": "anavaratha-legacy/raw/current_snapshot_2026-11-16/",
+   "date": "2026-11-09",
+   "layer": "C"
+  },
+  {
+   "id": "d_tax",
+   "label": "Taxonomy + call sheets + sweep",
+   "kind": "doc",
+   "src": "neevsk-research/anavaratha/phase1/",
+   "date": "2026-11-16",
+   "layer": "C"
+  }
+ ],
+ "edges": [
+  {
+   "source": "anavaratha",
+   "target": "dom1",
+   "rel": "has_domain",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §5"
+  },
+  {
+   "source": "anavaratha",
+   "target": "dom2",
+   "rel": "has_domain",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §5"
+  },
+  {
+   "source": "anavaratha",
+   "target": "dom3",
+   "rel": "has_domain",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §5"
+  },
+  {
+   "source": "anavaratha",
+   "target": "frameA",
+   "rel": "has_frame",
+   "src": "neevsk-research/anavaratha/phase1/FRAME_INVERSION.md §Frame A"
+  },
+  {
+   "source": "anavaratha",
+   "target": "frameB",
+   "rel": "has_frame",
+   "src": "neevsk-research/anavaratha/phase1/FRAME_INVERSION.md §Frame B"
+  },
+  {
+   "source": "anavaratha",
+   "target": "frameC",
+   "rel": "has_frame",
+   "src": "neevsk-research/anavaratha/phase1/FRAME_C_SYNTROPY.md §Lock"
+  },
+  {
+   "source": "frameC",
+   "target": "frameA",
+   "rel": "order_of_work",
+   "src": "neevsk-research/anavaratha/phase1/FRAME_C_SYNTROPY.md \"C → A → B\""
+  },
+  {
+   "source": "frameA",
+   "target": "frameB",
+   "rel": "order_of_work",
+   "src": "neevsk-research/anavaratha/phase1/FRAME_C_SYNTROPY.md \"C → A → B\""
+  },
+  {
+   "source": "frameA",
+   "target": "g_capability",
+   "rel": "defines",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "source": "frameA",
+   "target": "g_use",
+   "rel": "defines",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "source": "frameA",
+   "target": "g_residuality",
+   "rel": "defines",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "source": "frameA",
+   "target": "g_regeneration",
+   "rel": "defines",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "source": "frameA",
+   "target": "g_pressure",
+   "rel": "defines",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "source": "frameA",
+   "target": "g_unit_of_analysis",
+   "rel": "defines",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "source": "frameA",
+   "target": "g_evidence",
+   "rel": "defines",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "source": "frameA",
+   "target": "g_stage_exit_sensemaking_",
+   "rel": "defines",
+   "src": "neevsk-research/anavaratha/phase1/GLOSSARY_v0.md"
+  },
+  {
+   "source": "anavaratha",
+   "target": "sg_material",
+   "rel": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3"
+  },
+  {
+   "source": "anavaratha",
+   "target": "sg_flow",
+   "rel": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3"
+  },
+  {
+   "source": "anavaratha",
+   "target": "sg_stock",
+   "rel": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3"
+  },
+  {
+   "source": "anavaratha",
+   "target": "sg_boundary",
+   "rel": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3"
+  },
+  {
+   "source": "anavaratha",
+   "target": "sg_capacity",
+   "rel": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3"
+  },
+  {
+   "source": "anavaratha",
+   "target": "sg_dissipation",
+   "rel": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3"
+  },
+  {
+   "source": "anavaratha",
+   "target": "sg_afterlife",
+   "rel": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3"
+  },
+  {
+   "source": "anavaratha",
+   "target": "sg_receiver",
+   "rel": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3"
+  },
+  {
+   "source": "anavaratha",
+   "target": "sg_evidence_status",
+   "rel": "shared_grammar",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §3"
+  },
+  {
+   "source": "lg_premise",
+   "target": "cu_premise",
+   "rel": "DUP",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Project premise / identity\""
+  },
+  {
+   "source": "lg_name",
+   "target": "cu_name",
+   "rel": "DUP+CON",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Name meaning\""
+  },
+  {
+   "source": "lg_three_domains",
+   "target": "cu_three_domains",
+   "rel": "IGN",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Three domains\""
+  },
+  {
+   "source": "lg_two_dirs",
+   "target": "cu_two_dirs",
+   "rel": "IGN",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Two directions → Freedom to Flourish\""
+  },
+  {
+   "source": "lg_urr",
+   "target": "cu_urr",
+   "rel": "DUP",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Use → residual → regeneration\""
+  },
+  {
+   "source": "lg_displacement",
+   "target": "cu_displacement",
+   "rel": "EXT",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Displacement test / accountable transition\""
+  },
+  {
+   "source": "lg_negentropy",
+   "target": "cu_negentropy",
+   "rel": "CON",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Negentropy as cautious metaphor\""
+  },
+  {
+   "source": "lg_exergy",
+   "target": "cu_exergy",
+   "rel": "IGN",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Exergy / accounting identity / holarchy\""
+  },
+  {
+   "source": "lg_reservoirs",
+   "target": "cu_reservoirs",
+   "rel": "DUP",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Pressure reservoirs / visibility gradient\""
+  },
+  {
+   "source": "lg_leverage",
+   "target": "cu_leverage",
+   "rel": "CON",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Leverage points (Meadows; A–F)\""
+  },
+  {
+   "source": "lg_intervention",
+   "target": "cu_intervention",
+   "rel": "CON",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Intervention typology + methodology\""
+  },
+  {
+   "source": "lg_evaluation",
+   "target": "cu_evaluation",
+   "rel": "IGN",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Evaluation framework\""
+  },
+  {
+   "source": "lg_maturity",
+   "target": "cu_maturity",
+   "rel": "DUP+CON",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Maturity model Mapped→Actionable\""
+  },
+  {
+   "source": "lg_sequence",
+   "target": "cu_sequence",
+   "rel": "DUP",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Foundational sequence desk→…→action\""
+  },
+  {
+   "source": "lg_evidence_vocab",
+   "target": "cu_evidence_vocab",
+   "rel": "DUP",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Evidence status vocabulary\""
+  },
+  {
+   "source": "lg_capacity_chain",
+   "target": "cu_capacity_chain",
+   "rel": "DUP",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Capacity chain / no public evidence system\""
+  },
+  {
+   "source": "lg_compost",
+   "target": "cu_compost",
+   "rel": "CON",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"WP compost 157 of 2,775 t/month\""
+  },
+  {
+   "source": "lg_facility_reg",
+   "target": "cu_facility_reg",
+   "rel": "DUP",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Facility registers [WC]\""
+  },
+  {
+   "source": "lg_operator_dir",
+   "target": "cu_operator_dir",
+   "rel": "DUP",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"15-company operator list\""
+  },
+  {
+   "source": "lg_platform",
+   "target": "cu_platform",
+   "rel": "CON",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"\"Waste ecosystem platform\" dashboard\""
+  },
+  {
+   "source": "lg_cases",
+   "target": "cu_cases",
+   "rel": "DUP",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Meethotamulla / Kerawalapitiya / Karadiyana\""
+  },
+  {
+   "source": "lg_data_request",
+   "target": "cu_data_request",
+   "rel": "DUP",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Data request pack (unsent drafts)\""
+  },
+  {
+   "source": "lg_afterlives_ev",
+   "target": "cu_afterlives_ev",
+   "rel": "EXT",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Material Afterlives evidence\""
+  },
+  {
+   "source": "lg_ecology_atlas",
+   "target": "cu_ecology_atlas",
+   "rel": "IGN",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Cultivation atlas / Osu Uyana\""
+  },
+  {
+   "source": "lg_institutions",
+   "target": "cu_institutions",
+   "rel": "DUP",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Institutions as coordination / responsibility chain\""
+  },
+  {
+   "source": "lg_tooling",
+   "target": "cu_tooling",
+   "rel": "IGN",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Tooling (DuckDB/Parquet, data/raw→processed)\""
+  },
+  {
+   "source": "lg_peace_valley",
+   "target": "cu_peace_valley",
+   "rel": "NEW",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 row \"Peace Valley boundary\""
+  },
+  {
+   "source": "ch_duty",
+   "target": "ch_capacity",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/ANAVARATHA_DOCUMENTATION_SUITE_V0_1__unzipped/anavaratha_documentation_suite/domain_frameworks/ANAVARATHA_LEARNING_LEVERAGE_ACTION_ARCHITECTURE_V0_1.md §F"
+  },
+  {
+   "source": "ch_capacity",
+   "target": "ch_detection",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/ANAVARATHA_DOCUMENTATION_SUITE_V0_1__unzipped/anavaratha_documentation_suite/domain_frameworks/ANAVARATHA_LEARNING_LEVERAGE_ACTION_ARCHITECTURE_V0_1.md §F"
+  },
+  {
+   "source": "ch_detection",
+   "target": "ch_enforcement",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/ANAVARATHA_DOCUMENTATION_SUITE_V0_1__unzipped/anavaratha_documentation_suite/domain_frameworks/ANAVARATHA_LEARNING_LEVERAGE_ACTION_ARCHITECTURE_V0_1.md §F"
+  },
+  {
+   "source": "ch_enforcement",
+   "target": "ch_remedy",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/ANAVARATHA_DOCUMENTATION_SUITE_V0_1__unzipped/anavaratha_documentation_suite/domain_frameworks/ANAVARATHA_LEARNING_LEVERAGE_ACTION_ARCHITECTURE_V0_1.md §F"
+  },
+  {
+   "source": "ch_remedy",
+   "target": "ch_persistence",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/ANAVARATHA_DOCUMENTATION_SUITE_V0_1__unzipped/anavaratha_documentation_suite/domain_frameworks/ANAVARATHA_LEARNING_LEVERAGE_ACTION_ARCHITECTURE_V0_1.md §F"
+  },
+  {
+   "source": "inst01",
+   "target": "ch_duty",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "Administer"
+  },
+  {
+   "source": "inst01",
+   "target": "ch_detection",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "inspect"
+  },
+  {
+   "source": "inst01",
+   "target": "ch_enforcement",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "directions"
+  },
+  {
+   "source": "inst02",
+   "target": "ch_duty",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "Policy"
+  },
+  {
+   "source": "inst02",
+   "target": "ch_detection",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "monitoring"
+  },
+  {
+   "source": "inst02",
+   "target": "ch_persistence",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "steering and monitoring"
+  },
+  {
+   "source": "inst03",
+   "target": "ch_duty",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "Local waste"
+  },
+  {
+   "source": "inst03",
+   "target": "ch_capacity",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "transport"
+  },
+  {
+   "source": "inst04",
+   "target": "ch_capacity",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "programs"
+  },
+  {
+   "source": "inst05",
+   "target": "ch_enforcement",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "permissions"
+  },
+  {
+   "source": "inst07",
+   "target": "ch_detection",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "investigat"
+  },
+  {
+   "source": "inst07",
+   "target": "ch_enforcement",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "Criminal"
+  },
+  {
+   "source": "inst08",
+   "target": "ch_enforcement",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "Summary trials"
+  },
+  {
+   "source": "inst08",
+   "target": "ch_remedy",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "fines"
+  },
+  {
+   "source": "inst09",
+   "target": "ch_detection",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "monitoring"
+  },
+  {
+   "source": "inst09",
+   "target": "ch_enforcement",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "approvals"
+  },
+  {
+   "source": "inst10",
+   "target": "ch_duty",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "collection"
+  },
+  {
+   "source": "inst10",
+   "target": "ch_capacity",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "Recovery"
+  },
+  {
+   "source": "inst10",
+   "target": "ch_detection",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "monitoring"
+  },
+  {
+   "source": "inst11",
+   "target": "ch_detection",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "complaints"
+  },
+  {
+   "source": "inst11",
+   "target": "ch_remedy",
+   "rel": "role_keyword",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Institutional map",
+   "keyword": "litigation"
+  },
+  {
+   "source": "cp01",
+   "target": "cp02",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "source": "cp02",
+   "target": "cp03",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "source": "cp03",
+   "target": "cp04",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "source": "cp04",
+   "target": "cp05",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "source": "cp05",
+   "target": "cp06",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "source": "cp06",
+   "target": "cp07",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "source": "cp07",
+   "target": "cp08",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "source": "cp08",
+   "target": "cp09",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "source": "cp09",
+   "target": "cp10",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "source": "cp10",
+   "target": "cp11",
+   "rel": "next",
+   "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+  },
+  {
+   "source": "prj_L01",
+   "target": "org_world_bank",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L01 funder_implementer"
+  },
+  {
+   "source": "prj_L01",
+   "target": "org_cmc",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L01 funder_implementer"
+  },
+  {
+   "source": "prj_L01",
+   "target": "org_uda",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L01 funder_implementer"
+  },
+  {
+   "source": "prj_L02",
+   "target": "org_jica",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L02 funder_implementer"
+  },
+  {
+   "source": "prj_L03",
+   "target": "org_cea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L03 funder_implementer"
+  },
+  {
+   "source": "prj_L03",
+   "target": "org_min_environment_urban_dev",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L03 funder_implementer"
+  },
+  {
+   "source": "prj_L05",
+   "target": "org_adb",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L05 funder_implementer"
+  },
+  {
+   "source": "prj_L06",
+   "target": "org_jica",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L06 funder_implementer"
+  },
+  {
+   "source": "prj_L07",
+   "target": "org_cea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L07 funder_implementer"
+  },
+  {
+   "source": "prj_L08",
+   "target": "org_cea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L08 funder_implementer"
+  },
+  {
+   "source": "prj_L08",
+   "target": "org_min_environment_urban_dev",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L08 funder_implementer"
+  },
+  {
+   "source": "prj_L09",
+   "target": "org_cea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L09 funder_implementer"
+  },
+  {
+   "source": "prj_L10",
+   "target": "org_cmc",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L10 funder_implementer"
+  },
+  {
+   "source": "prj_L10",
+   "target": "org_local_authorities",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L10 funder_implementer"
+  },
+  {
+   "source": "prj_L12",
+   "target": "org_jica",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L12 funder_implementer"
+  },
+  {
+   "source": "prj_L13",
+   "target": "org_adb",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L13 funder_implementer"
+  },
+  {
+   "source": "prj_L14",
+   "target": "org_koica_korea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L14 funder_implementer"
+  },
+  {
+   "source": "prj_L14",
+   "target": "org_cea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L14 funder_implementer"
+  },
+  {
+   "source": "prj_L14",
+   "target": "org_wma_western_province_",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L14 funder_implementer"
+  },
+  {
+   "source": "prj_L15",
+   "target": "org_koica_korea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L15 funder_implementer"
+  },
+  {
+   "source": "prj_L16",
+   "target": "org_min_environment_urban_dev",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L16 funder_implementer"
+  },
+  {
+   "source": "prj_L17",
+   "target": "org_koica_korea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L17 funder_implementer"
+  },
+  {
+   "source": "prj_L17",
+   "target": "org_min_environment_urban_dev",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L17 funder_implementer"
+  },
+  {
+   "source": "prj_L18",
+   "target": "org_cea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L18 funder_implementer"
+  },
+  {
+   "source": "prj_L18",
+   "target": "org_local_authorities",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L18 funder_implementer"
+  },
+  {
+   "source": "prj_L19",
+   "target": "org_jica",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L19 funder_implementer"
+  },
+  {
+   "source": "prj_L20",
+   "target": "org_wma_western_province_",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L20 funder_implementer"
+  },
+  {
+   "source": "prj_L20",
+   "target": "org_uda",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L20 funder_implementer"
+  },
+  {
+   "source": "prj_L22",
+   "target": "org_wma_western_province_",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L22 funder_implementer"
+  },
+  {
+   "source": "prj_L22",
+   "target": "org_cmc",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L22 funder_implementer"
+  },
+  {
+   "source": "prj_L23",
+   "target": "org_cea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L23 funder_implementer"
+  },
+  {
+   "source": "prj_L23",
+   "target": "org_cmc",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L23 funder_implementer"
+  },
+  {
+   "source": "prj_L23",
+   "target": "org_local_authorities",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L23 funder_implementer"
+  },
+  {
+   "source": "prj_L24",
+   "target": "org_undp",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L24 funder_implementer"
+  },
+  {
+   "source": "prj_L24",
+   "target": "org_usaid",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L24 funder_implementer"
+  },
+  {
+   "source": "prj_L24",
+   "target": "org_cea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L24 funder_implementer"
+  },
+  {
+   "source": "prj_L24",
+   "target": "org_min_environment_urban_dev",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L24 funder_implementer"
+  },
+  {
+   "source": "prj_L25",
+   "target": "org_usaid",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L25 funder_implementer"
+  },
+  {
+   "source": "prj_L26",
+   "target": "org_jica",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L26 funder_implementer"
+  },
+  {
+   "source": "prj_L27",
+   "target": "org_jica",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L27 funder_implementer"
+  },
+  {
+   "source": "prj_L27",
+   "target": "org_wma_western_province_",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L27 funder_implementer"
+  },
+  {
+   "source": "prj_L28",
+   "target": "org_koica_korea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L28 funder_implementer"
+  },
+  {
+   "source": "prj_L28",
+   "target": "org_undp",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L28 funder_implementer"
+  },
+  {
+   "source": "prj_L28",
+   "target": "org_min_environment_urban_dev",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L28 funder_implementer"
+  },
+  {
+   "source": "prj_L29",
+   "target": "org_koica_korea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L29 funder_implementer"
+  },
+  {
+   "source": "prj_L29",
+   "target": "org_undp",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L29 funder_implementer"
+  },
+  {
+   "source": "prj_L30",
+   "target": "org_koica_korea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L30 funder_implementer"
+  },
+  {
+   "source": "prj_L31",
+   "target": "org_undp",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L31 funder_implementer"
+  },
+  {
+   "source": "prj_L32",
+   "target": "org_eu",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L32 funder_implementer"
+  },
+  {
+   "source": "prj_L33",
+   "target": "org_jica",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L33 funder_implementer"
+  },
+  {
+   "source": "prj_L34",
+   "target": "org_adb",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L34 funder_implementer"
+  },
+  {
+   "source": "prj_L34",
+   "target": "org_unep_iges",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L34 funder_implementer"
+  },
+  {
+   "source": "prj_L35",
+   "target": "org_cea",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L35 funder_implementer"
+  },
+  {
+   "source": "prj_L38",
+   "target": "org_local_authorities",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L38 funder_implementer"
+  },
+  {
+   "source": "prj_L39",
+   "target": "org_local_authorities",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L39 funder_implementer"
+  },
+  {
+   "source": "prj_L40",
+   "target": "org_local_authorities",
+   "rel": "funder_or_implementer",
+   "src": "neevsk-research/anavaratha/phase1/ledger_waste_projects_lk.csv row L40 funder_implementer"
+  },
+  {
+   "source": "d_concept",
+   "target": "d_feb24",
+   "rel": "precedes",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_feb24",
+   "target": "d_core",
+   "rel": "precedes",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_core",
+   "target": "d_wc",
+   "rel": "precedes",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_wc",
+   "target": "d_proj",
+   "rel": "precedes",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_proj",
+   "target": "d_charter",
+   "rel": "precedes",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_charter",
+   "target": "d_web",
+   "rel": "precedes",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_web",
+   "target": "d_repo",
+   "rel": "precedes",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_repo",
+   "target": "d_name",
+   "rel": "precedes",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_name",
+   "target": "d_dataset",
+   "rel": "precedes",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_dataset",
+   "target": "d_initdoc",
+   "rel": "precedes",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_initdoc",
+   "target": "d_dir",
+   "rel": "precedes",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_dir",
+   "target": "d_tax",
+   "rel": "precedes",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_concept",
+   "target": "lg_negentropy",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_concept",
+   "target": "lg_reservoirs",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_concept",
+   "target": "lg_exergy",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_feb24",
+   "target": "lg_intervention",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_feb24",
+   "target": "lg_leverage",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_feb24",
+   "target": "lg_evaluation",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_feb24",
+   "target": "lg_displacement",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_feb24",
+   "target": "lg_tooling",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_core",
+   "target": "lg_capacity_chain",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_core",
+   "target": "lg_compost",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_core",
+   "target": "lg_institutions",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_wc",
+   "target": "lg_institutions",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_wc",
+   "target": "lg_data_request",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_wc",
+   "target": "lg_facility_reg",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_wc",
+   "target": "lg_cases",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_proj",
+   "target": "lg_two_dirs",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_proj",
+   "target": "lg_afterlives_ev",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_proj",
+   "target": "lg_ecology_atlas",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_charter",
+   "target": "lg_three_domains",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_charter",
+   "target": "lg_maturity",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_charter",
+   "target": "lg_sequence",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_charter",
+   "target": "lg_evidence_vocab",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_charter",
+   "target": "lg_premise",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_name",
+   "target": "lg_name",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_dataset",
+   "target": "lg_platform",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_dataset",
+   "target": "lg_operator_dir",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_charter",
+   "target": "lg_urr",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A/§B; anavaratha-legacy/OVERLAP_MAP.md §2"
+  },
+  {
+   "source": "d_repo",
+   "target": "frameA",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_repo",
+   "target": "frameB",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_repo",
+   "target": "frameC",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_repo",
+   "target": "cu_peace_valley",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_dir",
+   "target": "cu_operator_dir",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_dir",
+   "target": "cu_cases",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/CHRONOLOGY.md §A"
+  },
+  {
+   "source": "d_charter",
+   "target": "dom1",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §5"
+  },
+  {
+   "source": "d_charter",
+   "target": "dom2",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §5"
+  },
+  {
+   "source": "d_charter",
+   "target": "dom3",
+   "rel": "introduces",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §5"
+  },
+  {
+   "source": "dom1",
+   "target": "lg_institutions",
+   "rel": "scope",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §2 (three domains row)"
+  },
+  {
+   "source": "dom2",
+   "target": "lg_afterlives_ev",
+   "rel": "scope",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §5 Domain II"
+  },
+  {
+   "source": "dom3",
+   "target": "lg_ecology_atlas",
+   "rel": "scope",
+   "src": "anavaratha-legacy/raw/IntuituiLabs_Anavaratha/ANAVARATHA_CHARTER_V0_1.md §5 Domain III"
+  },
+  {
+   "source": "frameC",
+   "target": "lg_negentropy",
+   "rel": "bridge",
+   "src": "anavaratha-legacy/OVERLAP_MAP.md §4 (Frame C row: map C to Domain III & care amplifiers)"
+  }
+ ]
+}

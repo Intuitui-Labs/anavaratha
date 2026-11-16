@@ -1,0 +1,48 @@
+---
+import '../styles/global.css';
+import { u, STAGE } from '../lib/url';
+interface Props { title: string; description?: string; wide?: boolean }
+const { title, description = 'Anavaratha: Sri Lanka material-cycle and ecological-continuity research. Desk-first. Sensemaking stage.', wide = false } = Astro.props;
+const path = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, ''), '') || '/';
+const nav = [['/', 'Home'], ['/atlas', 'Atlas'], ['/lineage', 'Lineage'], ['/notes', 'Desk notes'], ['/data', 'Data'], ['/method', 'Method'], ['/changelog', 'Changelog']];
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title} · Anavaratha</title><meta name="description" content={description} />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon" type="image/svg+xml" href={u('/favicon.svg')} />
+  <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-brand-background text-brand-primary">
+  <a href="#main" class="skip-link">Skip to main content <span aria-hidden="true">↓</span></a>
+  <div class="fixed inset-0 -z-10 systems-grid pointer-events-none opacity-60" aria-hidden="true"></div>
+  <header class="sticky top-0 z-50 border-b border-brand-border bg-brand-surface/95 backdrop-blur">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex flex-wrap items-center justify-between gap-3">
+      <a href={u('/')} class="flex items-center gap-3">
+        <span class="font-black tracking-tight text-xl">Anavaratha</span>
+        <span class="chip" title="Current stage per intuitui-web SystemLifecycle">Stage · {STAGE}</span>
+      </a>
+      <nav aria-label="Primary" class="flex flex-wrap gap-1 text-sm font-medium">
+        {nav.map(([h, l]) => {
+          const active = h === '/' ? path === '/' : path.startsWith(h);
+          return <a href={u(h)} aria-current={active ? 'page' : undefined}
+            class={`px-3 py-1.5 rounded-md ${active ? 'bg-brand-primary text-white' : 'text-brand-secondary hover:bg-black/5'}`}>{l}</a>;
+        })}
+      </nav>
+    </div>
+  </header>
+  <main id="main" class={`${wide ? 'max-w-7xl' : 'max-w-5xl'} mx-auto px-4 sm:px-6 py-10 space-y-12`}>
+    <slot />
+  </main>
+  <footer class="border-t border-brand-border mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 text-sm text-brand-muted flex flex-wrap gap-x-6 gap-y-2 justify-between">
+      <p>Desk research. <strong>Listed ≠ verified.</strong> No intervention claims. Every node traces to a file.</p>
+      <p class="font-mono text-xs">An Intuitui Labs initiative · prototype, not published · licence TBD</p>
+    </div>
+  </footer>
+</body>
+</html>

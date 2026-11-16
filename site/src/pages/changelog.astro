@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import timeline from '../data/timeline.json';
+const ev = [...timeline.concept_events].reverse();
+---
+<Base title="Changelog">
+  <header class="space-y-2"><p class="mono-label">Changelog</p><h1 class="text-4xl font-black tracking-tight">Dated, with confidence</h1>
+    <p class="text-brand-secondary">H = git or in-document date · M = file or zip time · L = inferred. Asia/Colombo.</p></header>
+  <ol class="space-y-3">
+    <li class="panel"><p class="mono-label">2026-11-16 · site</p><p class="font-bold">Atlas prototype: site/ + docs/visuals/ opened as a PR to Intuitui-Labs/anavaratha. Not deployed.</p><p class="text-sm">Map coverage up (geocoded from own addresses, rest listed with reasons); zoom-aware graph labels; undated lane; keyword-inferred links marked.</p></li>
+    {ev.map((e) => <li class="panel"><p class="mono-label">{e.date} · {e.type} · {e.confidence}</p><p class="font-bold">{e.title}</p><p class="text-sm">{e.effect}</p></li>)}
+  </ol>
+  <p class="src">anavaratha-legacy/CHRONOLOGY.md §A</p>
+</Base>

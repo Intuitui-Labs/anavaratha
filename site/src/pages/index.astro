@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+import { u } from '../lib/url';
+import timeline from '../data/timeline.json';
+import flows from '../data/flows.json';
+import geo from '../data/geo_meta.json';
+const noRoute = flows.household_route_sankey.types.filter((t) => t.hh_route === 'no route found').length;
+const domains = [
+  ['I', 'Freedom from Waste', 'How can involuntary exposure to destructive residual burdens be reduced without simply transferring those burdens to less visible people, places, or ecosystems?'],
+  ['II', 'Material Afterlives', 'When does "no longer needed by me" become "available for another," and what allows or prevents that value from circulating?'],
+  ['III', 'Ecological Flourishing', 'What material, institutional, and social conditions allow ecological systems to regenerate, adapt, and sustain the capabilities of living communities?'],
+];
+---
+<Base title="Home">
+  <section class="space-y-5">
+    <p class="mono-label">Sri Lanka · material cycles · ecological continuity</p>
+    <h1 class="text-5xl sm:text-7xl font-black tracking-tighter leading-[0.95]">Anavaratha</h1>
+    <p class="text-xl text-brand-secondary max-w-3xl">Studies how materials, institutions, people, and ecosystems preserve or lose capability through use, disuse, circulation, transformation, residuality, and regeneration. Desk-first, before any claim of readiness to act.</p>
+    <p class="src">Charter v0.1, preamble. The name draws from Sinhala.</p>
+  </section>
+
+  <section aria-labelledby="dom" class="space-y-4">
+    <h2 id="dom" class="text-2xl font-extrabold">Three domains. One field, not a ladder.</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+      {domains.map(([n, t, q]) => <article class="panel space-y-2"><p class="mono-label">Domain {n}</p><h3 class="text-lg font-bold">{t}</h3><p class="text-sm text-brand-secondary">{q}</p></article>)}
+    </div>
+    <p class="src">Charter §5–6. Bridge rule: a transition is beneficial only if it preserves or creates use, reduces burdens, protects ecological capability, and does not hide or export new residuals.</p>
+  </section>
+
+  <section class="panel grid md:grid-cols-[auto_1fr] gap-6 items-start" aria-labelledby="stage">
+    <div><p class="mono-label">Current stage</p><p id="stage" class="text-3xl font-black">Sensemaking</p></div>
+    <ul class="text-sm space-y-1.5 list-disc pl-5">
+      <li><strong>Frame C first:</strong> name what is alive and generating before cataloguing threats. Then A (use → residual → regeneration), then B (residuals that refuse regeneration).</li>
+      <li><strong>No intervention claims.</strong> Sites, pilots and products wait for stage exit and Naveen's approval.</li>
+      <li><strong>Listed ≠ verified.</strong> Nothing on this site has been checked on the ground yet.</li>
+      <li>Anavaratha and Peace Valley are separate peers.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="num" class="space-y-3">
+    <h2 id="num" class="text-2xl font-extrabold">What the desk work holds so far</h2>
+    <dl class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="panel"><dt class="mono-label">Operators listed</dt><dd class="text-3xl font-black">{geo.entities_total}</dd><dd class="src">DIRECTORY_WASTE_OPERATORS_LK ({geo.entities_mapped} mapped)</dd></div>
+      <div class="panel"><dt class="mono-label">Drop points</dt><dd class="text-3xl font-black">{geo.drop_points_total}</dd><dd class="src">DIRECTORY_…_droppoints ({geo.drop_points_mapped} mapped)</dd></div>
+      <div class="panel"><dt class="mono-label">Projects 1995–2026</dt><dd class="text-3xl font-black">{timeline.projects.length}</dd><dd class="src">ledger_waste_projects_lk.csv</dd></div>
+      <div class="panel"><dt class="mono-label">Waste types, no household route</dt><dd class="text-3xl font-black">{noRoute}</dd><dd class="src">WASTE_TAXONOMY_LK "HH route"</dd></div>
+    </dl>
+    <p><a class="underline font-semibold" href={u('/atlas')}>Open the atlas →</a> timeline, relations, map, flows, patterns.</p>
+  </section>
+</Base>

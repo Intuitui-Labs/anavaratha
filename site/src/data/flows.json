@@ -1,0 +1,732 @@
+{
+ "household_route_sankey": {
+  "src": "neevsk-research/anavaratha/phase1/WASTE_TAXONOMY_LK.md type tables (HH route column)",
+  "unit": "waste types",
+  "nodes": [
+   "Construction & bulky",
+   "E-waste, batteries, appliances, toner",
+   "Energy & sanitation",
+   "Glass",
+   "Household & commercial MSW",
+   "Household hazardous & clinical",
+   "Industrial hazardous & oils",
+   "Marine & fishing",
+   "Metal scrap",
+   "Organics & agriculture",
+   "Paper & cardboard",
+   "Plastics",
+   "Textiles & clothes",
+   "Tyres, vehicles, ship-breaking",
+   "conditional",
+   "no",
+   "no route found",
+   "not found",
+   "yes"
+  ],
+  "links": [
+   {
+    "source": "Household & commercial MSW",
+    "target": "yes",
+    "value": 1
+   },
+   {
+    "source": "Household & commercial MSW",
+    "target": "conditional",
+    "value": 1
+   },
+   {
+    "source": "Plastics",
+    "target": "yes",
+    "value": 2
+   },
+   {
+    "source": "Plastics",
+    "target": "conditional",
+    "value": 2
+   },
+   {
+    "source": "Paper & cardboard",
+    "target": "yes",
+    "value": 2
+   },
+   {
+    "source": "Paper & cardboard",
+    "target": "conditional",
+    "value": 1
+   },
+   {
+    "source": "Metal scrap",
+    "target": "yes",
+    "value": 1
+   },
+   {
+    "source": "Metal scrap",
+    "target": "conditional",
+    "value": 2
+   },
+   {
+    "source": "Glass",
+    "target": "conditional",
+    "value": 1
+   },
+   {
+    "source": "Glass",
+    "target": "yes",
+    "value": 1
+   },
+   {
+    "source": "Textiles & clothes",
+    "target": "yes",
+    "value": 3
+   },
+   {
+    "source": "Textiles & clothes",
+    "target": "conditional",
+    "value": 2
+   },
+   {
+    "source": "Textiles & clothes",
+    "target": "no route found",
+    "value": 1
+   },
+   {
+    "source": "Textiles & clothes",
+    "target": "no",
+    "value": 1
+   },
+   {
+    "source": "Organics & agriculture",
+    "target": "conditional",
+    "value": 2
+   },
+   {
+    "source": "Organics & agriculture",
+    "target": "yes",
+    "value": 1
+   },
+   {
+    "source": "Organics & agriculture",
+    "target": "no route found",
+    "value": 3
+   },
+   {
+    "source": "E-waste, batteries, appliances, toner",
+    "target": "yes",
+    "value": 5
+   },
+   {
+    "source": "E-waste, batteries, appliances, toner",
+    "target": "no route found",
+    "value": 2
+   },
+   {
+    "source": "Household hazardous & clinical",
+    "target": "no route found",
+    "value": 6
+   },
+   {
+    "source": "Household hazardous & clinical",
+    "target": "no",
+    "value": 1
+   },
+   {
+    "source": "Tyres, vehicles, ship-breaking",
+    "target": "no route found",
+    "value": 3
+   },
+   {
+    "source": "Tyres, vehicles, ship-breaking",
+    "target": "no",
+    "value": 1
+   },
+   {
+    "source": "Tyres, vehicles, ship-breaking",
+    "target": "yes",
+    "value": 1
+   },
+   {
+    "source": "Construction & bulky",
+    "target": "no",
+    "value": 1
+   },
+   {
+    "source": "Construction & bulky",
+    "target": "no route found",
+    "value": 2
+   },
+   {
+    "source": "Construction & bulky",
+    "target": "conditional",
+    "value": 1
+   },
+   {
+    "source": "Construction & bulky",
+    "target": "not found",
+    "value": 1
+   },
+   {
+    "source": "Industrial hazardous & oils",
+    "target": "no",
+    "value": 5
+   },
+   {
+    "source": "Industrial hazardous & oils",
+    "target": "yes",
+    "value": 1
+   },
+   {
+    "source": "Marine & fishing",
+    "target": "no",
+    "value": 2
+   },
+   {
+    "source": "Marine & fishing",
+    "target": "no route found",
+    "value": 1
+   },
+   {
+    "source": "Energy & sanitation",
+    "target": "no route found",
+    "value": 2
+   }
+  ],
+  "types": [
+   {
+    "group": "Household & commercial MSW",
+    "type_id": "HH.mixed_msw",
+    "label": "Household mixed / residual MSW",
+    "hh_route": "yes",
+    "ops": 14
+   },
+   {
+    "group": "Household & commercial MSW",
+    "type_id": "COM.msw",
+    "label": "Commercial MSW",
+    "hh_route": "conditional",
+    "ops": 14
+   },
+   {
+    "group": "Plastics",
+    "type_id": "HH.plastics_pet",
+    "label": "PET bottles/jugs",
+    "hh_route": "yes",
+    "ops": 75
+   },
+   {
+    "group": "Plastics",
+    "type_id": "HH.plastics_other",
+    "label": "Other plastics (HDPE/PP/LDPE/bags)",
+    "hh_route": "yes",
+    "ops": 297
+   },
+   {
+    "group": "Plastics",
+    "type_id": "COM.plastics",
+    "label": "Commercial plastics",
+    "hh_route": "conditional",
+    "ops": 298
+   },
+   {
+    "group": "Plastics",
+    "type_id": "IND.plastics",
+    "label": "Industrial plastics",
+    "hh_route": "conditional",
+    "ops": 295
+   },
+   {
+    "group": "Paper & cardboard",
+    "type_id": "HH.paper_cardboard",
+    "label": "Household paper/cardboard",
+    "hh_route": "yes",
+    "ops": 251
+   },
+   {
+    "group": "Paper & cardboard",
+    "type_id": "COM.paper",
+    "label": "Commercial paper",
+    "hh_route": "yes",
+    "ops": 252
+   },
+   {
+    "group": "Paper & cardboard",
+    "type_id": "HH.beverage_cartons",
+    "label": "Beverage cartons / Tetra Pak / RTD drink packs",
+    "hh_route": "conditional",
+    "ops": 4
+   },
+   {
+    "group": "Metal scrap",
+    "type_id": "HH.metal_scrap",
+    "label": "Household metal / tin / Al / Cu",
+    "hh_route": "yes",
+    "ops": 197
+   },
+   {
+    "group": "Metal scrap",
+    "type_id": "COM.metal",
+    "label": "Commercial metal",
+    "hh_route": "conditional",
+    "ops": 197
+   },
+   {
+    "group": "Metal scrap",
+    "type_id": "IND.metal",
+    "label": "Industrial metal",
+    "hh_route": "conditional",
+    "ops": 197
+   },
+   {
+    "group": "Glass",
+    "type_id": "HH.glass",
+    "label": "Bottle glass (clear/colour)",
+    "hh_route": "conditional",
+    "ops": 56
+   },
+   {
+    "group": "Glass",
+    "type_id": "COM.glass",
+    "label": "Commercial glass",
+    "hh_route": "yes",
+    "ops": 56
+   },
+   {
+    "group": "Textiles & clothes",
+    "type_id": "HH.textiles_reusable",
+    "label": "Reusable / gently used clothes",
+    "hh_route": "yes",
+    "ops": 63
+   },
+   {
+    "group": "Textiles & clothes",
+    "type_id": "HH.textiles_donation",
+    "label": "Charity / NGO donation",
+    "hh_route": "yes",
+    "ops": 8
+   },
+   {
+    "group": "Textiles & clothes",
+    "type_id": "HH.textiles_resale",
+    "label": "Thrift / second-hand / Marketplace",
+    "hh_route": "yes",
+    "ops": 3
+   },
+   {
+    "group": "Textiles & clothes",
+    "type_id": "HH.textiles_retail_takeback",
+    "label": "Retail brand take-back",
+    "hh_route": "conditional",
+    "ops": 2
+   },
+   {
+    "group": "Textiles & clothes",
+    "type_id": "HH.textiles_upcycle",
+    "label": "Upcycled fashion brands",
+    "hh_route": "conditional",
+    "ops": 3
+   },
+   {
+    "group": "Textiles & clothes",
+    "type_id": "HH.textiles_wornout",
+    "label": "Worn-out / non-reusable clothing",
+    "hh_route": "no route found",
+    "ops": 1
+   },
+   {
+    "group": "Textiles & clothes",
+    "type_id": "IND.textiles_preconsumer",
+    "label": "Garment offcuts / cotton waste / cutpiece",
+    "hh_route": "no",
+    "ops": 70
+   },
+   {
+    "group": "Organics & agriculture",
+    "type_id": "HH.organic_food",
+    "label": "Food / kitchen waste",
+    "hh_route": "conditional",
+    "ops": 12
+   },
+   {
+    "group": "Organics & agriculture",
+    "type_id": "AGR.coconut_shell",
+    "label": "Coconut shell",
+    "hh_route": "yes",
+    "ops": 36
+   },
+   {
+    "group": "Organics & agriculture",
+    "type_id": "AGR.coir",
+    "label": "Coir pith / fibre industry waste",
+    "hh_route": "no route found",
+    "ops": 1
+   },
+   {
+    "group": "Organics & agriculture",
+    "type_id": "AGR.paddy_husk_straw",
+    "label": "Paddy husk & straw",
+    "hh_route": "no route found",
+    "ops": 1
+   },
+   {
+    "group": "Organics & agriculture",
+    "type_id": "AGR.animal_waste",
+    "label": "Livestock / animal waste",
+    "hh_route": "no route found",
+    "ops": 2
+   },
+   {
+    "group": "Organics & agriculture",
+    "type_id": "AGR.gunny",
+    "label": "Gunny bags",
+    "hh_route": "conditional",
+    "ops": 28
+   },
+   {
+    "group": "E-waste, batteries, appliances, toner",
+    "type_id": "HH.ewaste",
+    "label": "E-waste (phones, IT, small electronics)",
+    "hh_route": "yes",
+    "ops": 27
+   },
+   {
+    "group": "E-waste, batteries, appliances, toner",
+    "type_id": "HH.batteries_lithium",
+    "label": "Li-ion / AA/AAA",
+    "hh_route": "yes",
+    "ops": 2
+   },
+   {
+    "group": "E-waste, batteries, appliances, toner",
+    "type_id": "HH.batteries_lead_acid",
+    "label": "Lead-acid",
+    "hh_route": "yes",
+    "ops": 5
+   },
+   {
+    "group": "E-waste, batteries, appliances, toner",
+    "type_id": "HH.batteries_other",
+    "label": "Other batteries",
+    "hh_route": "yes",
+    "ops": 3
+   },
+   {
+    "group": "E-waste, batteries, appliances, toner",
+    "type_id": "HH.appliances",
+    "label": "Large appliances",
+    "hh_route": "yes",
+    "ops": 4
+   },
+   {
+    "group": "E-waste, batteries, appliances, toner",
+    "type_id": "HH.toner_ink",
+    "label": "Toner / ink cartridges",
+    "hh_route": "no route found",
+    "ops": 1
+   },
+   {
+    "group": "E-waste, batteries, appliances, toner",
+    "type_id": "HH.cfl_fluorescent",
+    "label": "CFL / fluorescent tubes",
+    "hh_route": "no route found",
+    "ops": 4
+   },
+   {
+    "group": "Household hazardous & clinical",
+    "type_id": "HH.hazardous_aerosol",
+    "label": "Aerosol / pressurised cans",
+    "hh_route": "no route found",
+    "ops": 0
+   },
+   {
+    "group": "Household hazardous & clinical",
+    "type_id": "HH.hazardous_chemicals_paint",
+    "label": "HH chemicals & paint",
+    "hh_route": "no route found",
+    "ops": 2
+   },
+   {
+    "group": "Household hazardous & clinical",
+    "type_id": "HH.pharma_sharps",
+    "label": "Medicines & sharps",
+    "hh_route": "no route found",
+    "ops": 1
+   },
+   {
+    "group": "Household hazardous & clinical",
+    "type_id": "HH.used_oil_diy",
+    "label": "DIY used motor oil",
+    "hh_route": "no route found",
+    "ops": 0
+   },
+   {
+    "group": "Household hazardous & clinical",
+    "type_id": "HH.cooking_oil",
+    "label": "Household used cooking oil",
+    "hh_route": "no route found",
+    "ops": 1
+   },
+   {
+    "group": "Household hazardous & clinical",
+    "type_id": "MED.clinical",
+    "label": "Medical / clinical waste",
+    "hh_route": "no",
+    "ops": 5
+   },
+   {
+    "group": "Household hazardous & clinical",
+    "type_id": "MED.pharmaceuticals",
+    "label": "Pharmaceutical waste (institutional)",
+    "hh_route": "no route found",
+    "ops": 1
+   },
+   {
+    "group": "Tyres, vehicles, ship-breaking",
+    "type_id": "HH.tyres",
+    "label": "Household / garage tyres",
+    "hh_route": "no route found",
+    "ops": 20
+   },
+   {
+    "group": "Tyres, vehicles, ship-breaking",
+    "type_id": "VEHICLE.tyres",
+    "label": "Industrial tyre scrap",
+    "hh_route": "no",
+    "ops": 20
+   },
+   {
+    "group": "Tyres, vehicles, ship-breaking",
+    "type_id": "VEHICLE.elv",
+    "label": "End-of-life vehicles",
+    "hh_route": "no route found",
+    "ops": 1
+   },
+   {
+    "group": "Tyres, vehicles, ship-breaking",
+    "type_id": "VEHICLE.batteries",
+    "label": "Vehicle lead-acid batteries",
+    "hh_route": "yes",
+    "ops": 5
+   },
+   {
+    "group": "Tyres, vehicles, ship-breaking",
+    "type_id": "VEHICLE.shipbreaking",
+    "label": "Ship-breaking",
+    "hh_route": "no route found",
+    "ops": 1
+   },
+   {
+    "group": "Construction & bulky",
+    "type_id": "CONSTRUCTION.cd",
+    "label": "C&D / construction debris",
+    "hh_route": "no",
+    "ops": 1
+   },
+   {
+    "group": "Construction & bulky",
+    "type_id": "HH.construction",
+    "label": "Household renovation debris",
+    "hh_route": "no route found",
+    "ops": 1
+   },
+   {
+    "group": "Construction & bulky",
+    "type_id": "HH.mattress_furniture",
+    "label": "Mattresses",
+    "hh_route": "no route found",
+    "ops": 1
+   },
+   {
+    "group": "Construction & bulky",
+    "type_id": "HH.furniture_bulky",
+    "label": "Furniture / bulky (partial)",
+    "hh_route": "conditional",
+    "ops": 2
+   },
+   {
+    "group": "Construction & bulky",
+    "type_id": "HH.wood",
+    "label": "Wood waste",
+    "hh_route": "not found",
+    "ops": 1
+   },
+   {
+    "group": "Industrial hazardous & oils",
+    "type_id": "IND.hazardous",
+    "label": "Industrial hazardous waste",
+    "hh_route": "no",
+    "ops": 6
+   },
+   {
+    "group": "Industrial hazardous & oils",
+    "type_id": "IND.chemicals",
+    "label": "Industrial chemicals",
+    "hh_route": "yes",
+    "ops": 2
+   },
+   {
+    "group": "Industrial hazardous & oils",
+    "type_id": "IND.contaminated_containers",
+    "label": "Contaminated drums/cans",
+    "hh_route": "no",
+    "ops": 25
+   },
+   {
+    "group": "Industrial hazardous & oils",
+    "type_id": "IND.used_oil",
+    "label": "Industrial / marine waste oil",
+    "hh_route": "no",
+    "ops": 30
+   },
+   {
+    "group": "Industrial hazardous & oils",
+    "type_id": "IND.coprocessing",
+    "label": "Cement-kiln co-processing",
+    "hh_route": "no",
+    "ops": 5
+   },
+   {
+    "group": "Industrial hazardous & oils",
+    "type_id": "COM.cooking_oil",
+    "label": "Commercial used cooking oil",
+    "hh_route": "no",
+    "ops": 1
+   },
+   {
+    "group": "Marine & fishing",
+    "type_id": "MARINE.fishing_nets",
+    "label": "Abandoned fishing nets / ghost nets",
+    "hh_route": "no",
+    "ops": 2
+   },
+   {
+    "group": "Marine & fishing",
+    "type_id": "MARINE.waste_oil",
+    "label": "Ship / harbour waste oil",
+    "hh_route": "no",
+    "ops": 29
+   },
+   {
+    "group": "Marine & fishing",
+    "type_id": "MARINE.ship_breaking",
+    "label": "Ship-breaking waste",
+    "hh_route": "no route found",
+    "ops": 1
+   },
+   {
+    "group": "Energy & sanitation",
+    "type_id": "ENERGY.solar_panels",
+    "label": "End-of-life solar panels",
+    "hh_route": "no route found",
+    "ops": 1
+   },
+   {
+    "group": "Energy & sanitation",
+    "type_id": "SEWAGE.septage",
+    "label": "Sewage / septage",
+    "hh_route": "no route found",
+    "ops": 1
+   }
+  ]
+ },
+ "hazardous_route": {
+  "src": "neevsk-research/anavaratha/phase1/DESK_HOUSEHOLD_WASTE_STREAMS_LK.md",
+  "item": "Household aerosol / hazardous item",
+  "steps": [
+   {
+    "id": "bylaw",
+    "label": "By-law: separate \"hazardous waste\" (c)",
+    "status": "rule exists",
+    "src": "neevsk-research/anavaratha/phase1/DESK_HOUSEHOLD_WASTE_STREAMS_LK.md §1 [S1]"
+   },
+   {
+    "id": "council",
+    "label": "Hand to council collector / council bins",
+    "status": "on paper",
+    "src": "neevsk-research/anavaratha/phase1/DESK_HOUSEHOLD_WASTE_STREAMS_LK.md §1 [S1]"
+   },
+   {
+    "id": "cmc",
+    "broken": true,
+    "label": "CMC 3 streams: recyclable / non-recyclable / food",
+    "status": "no hazardous stream found",
+    "src": "neevsk-research/anavaratha/phase1/DESK_HOUSEHOLD_WASTE_STREAMS_LK.md §1 [S2][S3]"
+   },
+   {
+    "id": "sw",
+    "broken": true,
+    "label": "CEA Scheduled Waste licence",
+    "status": "industrial generators only",
+    "src": "neevsk-research/anavaratha/phase1/DESK_HOUSEHOLD_WASTE_STREAMS_LK.md §3 [S15]"
+   },
+   {
+    "id": "msw",
+    "broken": true,
+    "label": "CEA MSW guideline",
+    "status": "hazardous out of scope; screen it out",
+    "src": "neevsk-research/anavaratha/phase1/DESK_HOUSEHOLD_WASTE_STREAMS_LK.md §3 [S16]"
+   },
+   {
+    "id": "mixed",
+    "label": "Mixed into non-degradables",
+    "status": "what happens (Negombo: ~200 kg/day)",
+    "src": "neevsk-research/anavaratha/phase1/DESK_HOUSEHOLD_WASTE_STREAMS_LK.md §3 [S6]"
+   },
+   {
+    "id": "dump",
+    "label": "Open dump (~63% of disposal, UNDP 2026)",
+    "status": "dominant destination",
+    "src": "neevsk-research/anavaratha/phase1/DESK_HOUSEHOLD_WASTE_STREAMS_LK.md §2 [S7]"
+   },
+   {
+    "id": "wte",
+    "label": "Kerawalapitiya WtE / landfill (Colombo)",
+    "status": "possible",
+    "src": "neevsk-research/anavaratha/phase1/DESK_HOUSEHOLD_WASTE_STREAMS_LK.md §2 [S13]"
+   }
+  ],
+  "breaks": [
+   {
+    "between": [
+     "cmc",
+     "sw"
+    ],
+    "why": "council route has no hazardous channel; national system excludes households",
+    "src": "neevsk-research/anavaratha/phase1/DESK_HOUSEHOLD_WASTE_STREAMS_LK.md §4.1"
+   },
+   {
+    "between": [
+     "cmc",
+     "msw"
+    ],
+    "why": "MSW guideline sends hazardous \"somewhere else\" that does not exist",
+    "src": "neevsk-research/anavaratha/phase1/DESK_HOUSEHOLD_WASTE_STREAMS_LK.md §4.1"
+   }
+  ],
+  "frame": "Frame B refusal case candidate",
+  "frame_src": "neevsk-research/anavaratha/phase1/DESK_HOUSEHOLD_WASTE_STREAMS_LK.md §6"
+ },
+ "responsibility_chain": {
+  "links": [
+   "duty",
+   "capacity",
+   "detection",
+   "enforcement",
+   "remedy",
+   "persistence"
+  ],
+  "src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/ANAVARATHA_DOCUMENTATION_SUITE_V0_1__unzipped/anavaratha_documentation_suite/domain_frameworks/ANAVARATHA_LEARNING_LEVERAGE_ACTION_ARCHITECTURE_V0_1.md §F",
+  "compliance_steps": [
+   "Rule clarity",
+   "Boundary clarity",
+   "Detection",
+   "Attribution",
+   "Evidence integrity",
+   "Authority action",
+   "Adjudication",
+   "Sanction or remedy",
+   "Implementation",
+   "Verification",
+   "Persistence"
+  ],
+  "compliance_src": "anavaratha-legacy/raw/waste_cycles_anavaratha/zip_entries/Anavaratha Enforcement Institution and Capacity Map v0.1.md §Compliance-production chain"
+ }
+}

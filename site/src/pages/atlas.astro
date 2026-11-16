@@ -1,0 +1,27 @@
+---
+import Base from '../layouts/Base.astro';
+import Timeline from '../components/Timeline.svelte';
+import Graph from '../components/Graph.svelte';
+import OperatorMap from '../components/OperatorMap.svelte';
+import Flows from '../components/Flows.svelte';
+import Matrix from '../components/Matrix.svelte';
+import { u } from '../lib/url';
+import timeline from '../data/timeline.json';
+import graph from '../data/graph.json';
+import flows from '../data/flows.json';
+import matrix from '../data/matrix.json';
+const sections = [['timeline', 'Timeline'], ['relations', 'Relations'], ['map', 'Map'], ['flows', 'Flows'], ['patterns', 'Patterns']];
+---
+<Base title="Atlas" wide>
+  <header class="space-y-3">
+    <p class="mono-label">Atlas · prototype</p>
+    <h1 class="text-4xl sm:text-5xl font-black tracking-tight">Atlas</h1>
+    <p class="text-brand-secondary max-w-3xl">Five views of the same desk work. Select any item to see its source file. Each chart has a text or table version.</p>
+    <nav aria-label="Atlas sections" class="flex flex-wrap gap-2">{sections.map(([id, l]) => <a class="chip" href={`#${id}`}>{l}</a>)}</nav>
+  </header>
+  <section id="timeline" class="space-y-3 scroll-mt-24"><h2 class="text-2xl font-extrabold">Timeline</h2><Timeline client:visible data={timeline} /></section>
+  <section id="relations" class="space-y-3 scroll-mt-24"><h2 class="text-2xl font-extrabold">Relations</h2><Graph client:visible data={graph} /></section>
+  <section id="map" class="space-y-3 scroll-mt-24"><h2 class="text-2xl font-extrabold">Map · who takes what, where</h2><OperatorMap client:visible url={u('/data/operators_public.geojson')} unmappedUrl={u('/data/operators_unmapped.json')} /></section>
+  <section id="flows" class="space-y-3 scroll-mt-24"><h2 class="text-2xl font-extrabold">Flows · where household routes exist, and where they break</h2><Flows client:visible data={flows} /></section>
+  <section id="patterns" class="space-y-3 scroll-mt-24"><h2 class="text-2xl font-extrabold">Patterns · which ideas live in which layer</h2><Matrix client:visible data={matrix} /></section>
+</Base>
