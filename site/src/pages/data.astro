@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import { u } from '../lib/url';
+import graph from '../data/graph.json';
+import timeline from '../data/timeline.json';
+import geo from '../data/geo_meta.json';
+const files = [
+  ['operators_public.geojson', `Waste operators + drop points (${geo.features} points)`, `Contact, address and price fields removed; phone/email patterns scrubbed; coordinates rounded to 4 dp. Mostly locality centroids. ${geo.entities_geocoded_by_atlas + geo.drop_points_geocoded_by_atlas} placed by this atlas from their own address (flag geocoded_by_atlas).`],
+  ['operators_unmapped.json', `Not mapped (${geo.entities_not_mapped + geo.drop_points_not_mapped} rows)`, 'Rows with no usable coordinates, with the reason for each. No coordinates invented.'],
+  ['graph.json', `Relations graph (${graph.nodes.length} nodes, ${graph.edges.length} edges)`, 'Concepts, docs, institutions, projects. Every node and edge has a src path.'],
+  ['timeline.json', `Concept events (${timeline.concept_events.length}) + ledger (${timeline.projects.length})`, 'Dates in Asia/Colombo; pattern codes a/b/c.'],
+  ['flows.json', 'Household route sankey, hazardous route, responsibility chain', 'Unit = number of waste types.'],
+  ['matrix.json', 'Concept × source-layer hit counts', 'Regex hits; presence ≠ endorsement.'],
+];
+---
+<Base title="Data">
+  <header class="space-y-2"><p class="mono-label">Data</p><h1 class="text-4xl font-black tracking-tight">Downloads</h1>
+    <p class="text-brand-secondary">Contact-free. Status for every row: <strong>listed, not verified on the ground</strong>. Licence: TBD (decided before publishing).</p>
+    <p class="text-sm text-brand-secondary">Coordinates come from the source directory (CEA lists, OpenStreetMap, operator pages). Atlas-placed points use OpenStreetMap Nominatim. Map data © OpenStreetMap contributors, ODbL.</p></header>
+  <ul class="space-y-3">{files.map(([f, t, d]) => <li class="panel flex flex-wrap justify-between gap-3"><div><p class="font-bold">{t}</p><p class="text-sm text-brand-secondary">{d}</p></div><a class="chip self-center" href={u(`/data/${f}`)} download>{f} ↓</a></li>)}</ul>
+</Base>

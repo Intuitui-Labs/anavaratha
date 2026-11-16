@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import { u } from '../lib/url';
+import graph from '../data/graph.json';
+const byId = new Map(graph.nodes.map((n) => [n.id, n]));
+const rows = graph.edges.filter((e) => e.source.startsWith('lg_')).map((e) => ({ legacy: byId.get(e.source), current: byId.get(e.target), code: e.rel, src: e.src }));
+const codeClass: Record<string, string> = { DUP: 'text-orange-800', 'DUP+CON': 'text-amber-800', CON: 'text-red-800', EXT: 'text-green-800', IGN: 'text-slate-600', NEW: 'text-sky-800' };
+---
+<Base title="Lineage" wide>
+  <header class="space-y-2"><p class="mono-label">Lineage</p><h1 class="text-4xl font-black tracking-tight">How the ideas grew, mutated, slept and came back</h1>
+    <p class="text-brand-secondary max-w-3xl">Feb 2026 Concept Doc → Feb framework docs → Aug charter and packages → Sep Phase 1 → Nov directory. Several current locks revive Feb-20 ideas without knowing it.</p></header>
+  <figure class="panel space-y-2"><img src={u('/diagrams/b_chronology_timeline.png')} alt="Chronology timeline February to November 2026. The same events are listed on the Changelog page." class="w-full h-auto" /><figcaption class="src">anavaratha-legacy/CHRONOLOGY.md §A</figcaption></figure>
+  <section class="space-y-3"><h2 class="text-2xl font-extrabold">Legacy → current ({rows.length} concepts)</h2>
+    <table class="w-full text-sm border-collapse bg-white">
+      <thead><tr class="text-left border-b-2 border-brand-primary"><th class="p-2">Legacy concept</th><th class="p-2">Where it was</th><th class="p-2">Code</th><th class="p-2">Current object</th></tr></thead>
+      <tbody>{rows.map((r) => <tr class="border-b align-top"><td class="p-2 font-semibold">{r.legacy?.label}</td><td class="p-2 text-brand-muted">{(r.legacy as any)?.legacy_source}</td><td class={`p-2 font-mono font-bold ${codeClass[r.code]}`}>{r.code}</td><td class="p-2">{r.current?.label}</td></tr>)}</tbody>
+    </table>
+    <p class="src">anavaratha-legacy/OVERLAP_MAP.md §2 · DUP redo · EXT goes beyond · CON conflicts with a current lock · IGN ignored · NEW current only</p>
+  </section>
+  <figure class="panel space-y-2"><img src={u('/diagrams/c_lineage_graph.png')} alt={`Lineage graph of ${rows.length} legacy concepts linked to current Phase 1 objects; same data as the table above.`} class="max-w-2xl mx-auto w-full h-auto" /></figure>
+</Base>

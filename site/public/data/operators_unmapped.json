@@ -1,0 +1,536 @@
+{
+ "meta": {
+  "src": "neevsk-research/anavaratha/phase1/DIRECTORY_WASTE_OPERATORS_LK.geojson + .csv + _droppoints.csv (snapshot 2026-11-16)",
+  "note": "rows with no usable coordinates; reason per row. No coordinates invented."
+ },
+ "rows": [
+  {
+   "id": "LK-WO-0010",
+   "layer": "entity",
+   "name": "Clean Earth Envior",
+   "district": "Colombo",
+   "reason": "locality not resolved in stated district (tried: Thotalanga, Colombo District, Sri Lanka; Thotalanga, Sri Lanka)",
+   "src_precision": "geocoded to Gampaha district, CEA says Colombo; coords dropped"
+  },
+  {
+   "id": "LK-WO-0072",
+   "layer": "entity",
+   "name": "Chamara & Sameera Enterprises",
+   "district": "Gampaha",
+   "reason": "locality not resolved in stated district (tried: Kelaniya, Gampaha District, Sri Lanka; Kelaniya, Sri Lanka)",
+   "src_precision": "geocoded to Colombo district, CEA says Gampaha; coords dropped"
+  },
+  {
+   "id": "LK-WO-0160",
+   "layer": "entity",
+   "name": "Rayuni Enterprises",
+   "district": "Gampaha",
+   "reason": "locality not resolved in stated district (tried: Waagowwa, Gampaha District, Sri Lanka; Waagowwa, Sri Lanka; vaagowwa, Gampaha District, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0174",
+   "layer": "entity",
+   "name": "C.K.Enterprises",
+   "district": "Gampaha",
+   "reason": "locality not resolved in stated district (tried: Henagama, Gampaha District, Sri Lanka; Henagama, Sri Lanka; Karagala, Gampaha District, Sri Lanka)",
+   "src_precision": "geocoded to Kalutara district, CEA says Gampaha; coords dropped"
+  },
+  {
+   "id": "LK-WO-0203",
+   "layer": "entity",
+   "name": "Sehansa Industry",
+   "district": "Gampaha",
+   "reason": "locality not resolved in stated district (tried: Loluwagoda, Gampaha District, Sri Lanka; Loluwagoda, Sri Lanka; Loluvagoda, Gampaha District, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0209",
+   "layer": "entity",
+   "name": "Ganga Trade Center",
+   "district": "Gampaha",
+   "reason": "locality not resolved in stated district (tried: Negambo, Gampaha District, Sri Lanka; Negambo, Sri Lanka; Thimbirigaskatuwa, Gampaha District, Sri Lanka)",
+   "src_precision": "geocoded to Kandy district, CEA says Gampaha; coords dropped"
+  },
+  {
+   "id": "LK-WO-0249",
+   "layer": "entity",
+   "name": "P.H.R.Collecting Center",
+   "district": "Kalutara",
+   "reason": "locality not resolved in stated district (tried: Agalawaththa, Kalutara District, Sri Lanka; Agalawaththa, Sri Lanka; Agalavaththa, Kalutara District, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0254",
+   "layer": "entity",
+   "name": "D.P.S.ආ තන",
+   "district": "Kalutara",
+   "reason": "locality not resolved in stated district (tried: Kuda Uduwa, Kalutara District, Sri Lanka; Kuda Uduwa, Sri Lanka; Kuda Uduva, Kalutara District, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0261",
+   "layer": "entity",
+   "name": "Earthfoam Retail (Pvt) Ltd",
+   "district": "Kalutara",
+   "reason": "locality not resolved in stated district (tried: Kuda Uduwa, Kalutara District, Sri Lanka; Kuda Uduwa, Sri Lanka; Kuda Uduva, Kalutara District, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0267",
+   "layer": "entity",
+   "name": "Subhash Cutpiece",
+   "district": "Kurunegala",
+   "reason": "locality not resolved in stated district (tried: Kappetiwalana, Kurunegala District, Sri Lanka; Kappetiwalana, Sri Lanka; Kappetivalana, Kurunegala District, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0268",
+   "layer": "entity",
+   "name": "Shimashi Trade Center",
+   "district": "Kurunegala",
+   "reason": "locality not resolved in stated district (tried: Wellarawa, Kurunegala District, Sri Lanka; Wellarawa, Sri Lanka; vellarawa, Kurunegala District, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0287",
+   "layer": "entity",
+   "name": "GMN Dehiaththakandiya",
+   "district": "Ampara",
+   "reason": "locality not resolved in stated district (tried: Dehiaththakandiya, Ampara District, Sri Lanka; Dehiaththakandiya, Sri Lanka; Muwagammana, Ampara District, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0297",
+   "layer": "entity",
+   "name": "MI Lanka (Pvt) Ltd",
+   "district": "not found",
+   "reason": "locality not resolved (tried: Orugodawatte, Sri Lanka; Orugodavatte, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0365",
+   "layer": "entity",
+   "name": "Hutch e-waste collection stations (operated by Ceylon Waste Management)",
+   "district": "island-wide",
+   "reason": "multi-site, itinerant or service-area entry; no single address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0366",
+   "layer": "entity",
+   "name": "Ceylon Waste Management (Pvt) Ltd (ewaste.lk)",
+   "district": "Colombo",
+   "reason": "multi-site, itinerant or service-area entry; no single address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0367",
+   "layer": "entity",
+   "name": "CPM Sri Lanka E-Waste Recycling Initiative (with Commercial Bank)",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0369",
+   "layer": "entity",
+   "name": "Coca-Cola Beverages Sri Lanka – \"Give Back Life\" PET programme",
+   "district": "island-wide",
+   "reason": "no usable address in source (district only: island-wide)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0372",
+   "layer": "entity",
+   "name": "ZeroTrash – concrete compost bin",
+   "district": "Colombo",
+   "reason": "no usable address in source (district only: Colombo)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0373",
+   "layer": "entity",
+   "name": "Divish Resources Bank (PHINLA / Greenforce resource bank)",
+   "district": "Gampaha",
+   "reason": "multi-site, itinerant or service-area entry; no single address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0375",
+   "layer": "entity",
+   "name": "Private waste collectors (informal \"iron/scrap\" buyers, ~18,000–22,000 nationally)",
+   "district": "island-wide",
+   "reason": "multi-site, itinerant or service-area entry; no single address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0376",
+   "layer": "entity",
+   "name": "Trash2Cash Home & Business (Chakra Suthra)",
+   "district": "Colombo",
+   "reason": "multi-site, itinerant or service-area entry; no single address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0378",
+   "layer": "entity",
+   "name": "Waste360",
+   "district": "Kalutara",
+   "reason": "locality not resolved in stated district (tried: Horana facility, Kalutara District, Sri Lanka; Horana facility, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0386",
+   "layer": "entity",
+   "name": "Kalhari Group (Kalhari Enterprises)",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0387",
+   "layer": "entity",
+   "name": "Samson Reclaim Rubbers Ltd (DSI Samson Group)",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0398",
+   "layer": "entity",
+   "name": "Dehiwala-Mount Lavinia Municipal Council – solid waste",
+   "district": "Colombo",
+   "reason": "address has no locality segment",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0403",
+   "layer": "entity",
+   "name": "Green Life Generation",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0405",
+   "layer": "entity",
+   "name": "Sri Lanka Recyclers Association",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0406",
+   "layer": "entity",
+   "name": "Sevanatha Urban Resource Centre – Integrated Resource Recovery Centres",
+   "district": "Matale; Ratnapura",
+   "reason": "multi-site, itinerant or service-area entry; no single address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0415",
+   "layer": "entity",
+   "name": "Phoenix Industries – 160 L compost bin",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0416",
+   "layer": "entity",
+   "name": "BNS Hardware – compost bin",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0432",
+   "layer": "entity",
+   "name": "Wine stores / DCSL beer & arrack bottle return (informal deposit)",
+   "district": "island-wide",
+   "reason": "multi-site, itinerant or service-area entry; no single address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0433",
+   "layer": "entity",
+   "name": "CMC \"Kasala Pola\" (waste market / recyclables exchange events)",
+   "district": "Colombo",
+   "reason": "multi-site, itinerant or service-area entry; no single address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0434",
+   "layer": "entity",
+   "name": "\"Bothal-paper\" itinerant buyers (traditional bottle & newspaper men)",
+   "district": "Colombo",
+   "reason": "multi-site, itinerant or service-area entry; no single address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0440",
+   "layer": "entity",
+   "name": "KIB Enterprises",
+   "district": "Gampaha",
+   "reason": "locality not resolved in stated district (tried: Ruggahavila, Gampaha District, Sri Lanka; Ruggahavila, Sri Lanka; Kamburagallawatta, Gampaha District, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0445",
+   "layer": "entity",
+   "name": "not found",
+   "district": "Gampaha",
+   "reason": "locality not resolved in stated district (tried: Thiththapaththara, Gampaha District, Sri Lanka; Thiththapaththara, Sri Lanka; Maligawatta yattowita, Gampaha District, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0449",
+   "layer": "entity",
+   "name": "HMP Enterprises",
+   "district": "Gampaha",
+   "reason": "locality not resolved in stated district (tried: Maradagahamula, Gampaha District, Sri Lanka; Maradagahamula, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0453",
+   "layer": "entity",
+   "name": "RVS Metals",
+   "district": "Kalutara",
+   "reason": "locality not resolved in stated district (tried: Kaluthara South, Kalutara District, Sri Lanka; Kaluthara South, Sri Lanka; Mahaheenatiyangala, Kalutara District, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0455",
+   "layer": "entity",
+   "name": "Wings of Humanity – Clothes Bank",
+   "district": "Colombo",
+   "reason": "multi-site, itinerant or service-area entry; no single address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0457",
+   "layer": "entity",
+   "name": "Mandarin – The Modesty Exchange (retail take-back)",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0459",
+   "layer": "entity",
+   "name": "Spring & Summer × Greater Giving – \"New Life\" clothing donation campaign",
+   "district": "Colombo",
+   "reason": "multi-site, itinerant or service-area entry; no single address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0464",
+   "layer": "entity",
+   "name": "Sarvodaya – clothing donation / thrift channel",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0465",
+   "layer": "entity",
+   "name": "MAS Holdings – textile waste circularity / Cellucycle",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0466",
+   "layer": "entity",
+   "name": "Brandix – recycled cotton from cut waste",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0467",
+   "layer": "entity",
+   "name": "Hirdaramani – pre-consumer textile waste (\"The Loop\" recycled yarn; TransTextile partner)",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0468",
+   "layer": "entity",
+   "name": "House of Lonali – upcycled fashion",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0469",
+   "layer": "entity",
+   "name": "ARALU – upcycled garments from factory waste",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0470",
+   "layer": "entity",
+   "name": "FB / Instagram / Marketplace thrift & pre-loved clothing network (informal)",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0471",
+   "layer": "entity",
+   "name": "Post-consumer worn-out / non-reusable clothing – NO FIBRE ROUTE FOUND",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0474",
+   "layer": "entity",
+   "name": "End-of-life solar panels – no dedicated facility found",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0475",
+   "layer": "entity",
+   "name": "Mattresses – no household route found",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0476",
+   "layer": "entity",
+   "name": "Formal ELV (end-of-life vehicle) scheme – not found",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0477",
+   "layer": "entity",
+   "name": "Ship-breaking yards (Sri Lanka) – no public waste route found",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0478",
+   "layer": "entity",
+   "name": "Household toner / ink cartridges – no dedicated route found",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0479",
+   "layer": "entity",
+   "name": "Sewage / septage – municipal emptying only (no household drop)",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0480",
+   "layer": "entity",
+   "name": "Paddy husk / straw – agricultural / industrial only",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0481",
+   "layer": "entity",
+   "name": "Animal waste (livestock) – agricultural only",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0482",
+   "layer": "entity",
+   "name": "Coir pith / coir industry waste – industrial",
+   "district": "not found",
+   "reason": "no usable address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0485",
+   "layer": "entity",
+   "name": "Hayleys Fabric PLC – polyester cut-waste to India recycler (with MAS) / fibre-sheet R&D",
+   "district": "Kalutara",
+   "reason": "no usable address in source (district only: Kalutara)",
+   "src_precision": "not geocoded"
+  },
+  {
+   "id": "LK-WO-0488",
+   "layer": "entity",
+   "name": "The Soup Bowl – Annual Clothing Giveaway (clothes donation, Kandy)",
+   "district": "Kandy",
+   "reason": "no usable address in source (district only: Kandy)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0489",
+   "layer": "entity",
+   "name": "Sri Lanka Cancer Society – Op Shop (donated goods resale)",
+   "district": "Colombo",
+   "reason": "multi-site, itinerant or service-area entry; no single address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0490",
+   "layer": "entity",
+   "name": "Nestlé MILO × Trash2Cash – RTD pack take-back (smart recycling bins)",
+   "district": "Colombo",
+   "reason": "multi-site, itinerant or service-area entry; no single address in source",
+   "src_precision": "not found (entity); 5 of 10 drop points located"
+  },
+  {
+   "id": "LK-WO-0491",
+   "layer": "entity",
+   "name": "Eco Maximus (Maximus) – handmade paper from elephant dung & waste paper; MILO carton recycler",
+   "district": "Kegalle",
+   "reason": "multi-site, itinerant or service-area entry; no single address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-DP-0322",
+   "layer": "drop_point",
+   "name": "eKunu Collection Point - Killinochchi",
+   "district": "",
+   "reason": "locality not resolved (tried: Killinochchi, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-DP-0324",
+   "layer": "drop_point",
+   "name": "eKunu Collection Point - Rathnapura",
+   "district": "",
+   "reason": "locality not resolved (tried: Rathnapura, Sri Lanka; Kudugalwatta, Sri Lanka)",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-DP-0335",
+   "layer": "drop_point",
+   "name": "eKunu Collection Point - Dialog Finance Building (DBN)",
+   "district": "",
+   "reason": "no address in source",
+   "src_precision": "not found"
+  },
+  {
+   "id": "LK-DP-0342",
+   "layer": "drop_point",
+   "name": "Green Mart Supermarket Rathmalana Clothes Bank",
+   "district": "",
+   "reason": "locality not resolved (tried: Rathmalana, Sri Lanka; Green Mart Supermarket, Sri Lanka)",
+   "src_precision": "not found — Wings lists \"Green Mart Supermarket, Rathmalana\" but public sources show at least two Ratmalana Green Mart outlets (e.g. No. 271 Galle Road and Borupana Rd / Dharmashrama Mawatha); page does not specify which hosts the clothes bank."
+  }
+ ]
+}

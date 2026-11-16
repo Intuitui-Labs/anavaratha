@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+const inRepo = new Set(['FRAME_C_SYNTROPY', 'FRAME_INVERSION', 'WORKED_EXAMPLE_QS1_DRY_ZONE', 'KILL_LOG']);
+const notes = [
+  ['DESK_HOUSEHOLD_WASTE_STREAMS_LK', 'What happens to household residual streams', 'Rule exists, route does not: household hazardous waste. UNDP 2026 primary quotes.', 'Frame B candidate'],
+  ['DESK_GARMENT_WASTE_EU_LK', 'Garment waste, Kesbewa, and EU rules', 'What large garment makers do with waste; which EU instruments bind exporters, and when.', 'desk'],
+  ['LEDGER_WASTE_PROJECTS_LK', '31-year ledger of waste projects', '41 projects, 1995–2026: promise, money, outcome, evaluation.', 'desk'],
+  ['WASTE_TAXONOMY_LK', 'Waste taxonomy and household routes', '62 types × household route status; 20 with no route found.', 'desk'],
+  ['DIRECTORY_WASTE_OPERATORS_LK', 'Directory of waste operators', '487 operators, 352 drop points. Listed, not verified.', 'contains contacts'],
+  ['FRAME_C_SYNTROPY', 'Frame C: syntropy first', 'The lock. Name the generative object before the threat catalogue.', 'method'],
+  ['FRAME_INVERSION', 'Frames A and B: the dual optic', 'Every A-claim gets a B stress test, and every B refusal gets an A check.', 'method'],
+  ['WORKED_EXAMPLE_QS1_DRY_ZONE', 'Dry Zone generative companion', 'Tank cascades as living infrastructure (Frame C).', 'desk'],
+  ['KILL_LOG', 'Kill log', 'Questions rejected, and why. No silent revival.', 'method'],
+];
+---
+<Base title="Desk notes">
+  <header class="space-y-2"><p class="mono-label">Desk notes</p><h1 class="text-4xl font-black tracking-tight">What has been written</h1>
+    <p class="text-brand-secondary">Titles and one-line scope. Method notes are in the repo; the desk notes are not published yet. They need Naveen's review, and some contain contact details.</p></header>
+  <ul class="grid md:grid-cols-2 gap-4">
+    {notes.map(([f, t, d, tag]) => <li class="panel space-y-1"><p class="mono-label">{tag}</p><h2 class="font-bold">{t}</h2><p class="text-sm text-brand-secondary">{d}</p><p class="src">{inRepo.has(f) ? <a class="underline" href={`https://github.com/Intuitui-Labs/anavaratha/blob/main/docs/phase1/${f}.md`}>docs/phase1/{f}.md · in repo</a> : `phase1/${f}.md · not published`}</p></li>)}
+  </ul>
+</Base>
