@@ -1,0 +1,8 @@
+ANAVARATHA_GENERAL_WASTE_SYSTEM.md
+ANAVARATHA_WASTE_STREAM_CYCLES.md
+ANAVARATHA_MATERIAL_AFTERLIVES_README.md
+ANAVARATHA_ECOLOGICAL_FLOURISHING_README.md
+National_Environmental_Amendment_15_2026.pdf
+CPH2024_district_denominators.geojson
+OSM_Sri_Lanka_waste_sites.geojson
+OSM_Sri_Lanka_receiving_environments.geojson

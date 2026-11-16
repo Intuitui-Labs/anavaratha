@@ -1,0 +1,23 @@
+Zone Type,Definition (Anavaratha),Example Regions,Dominant Data Sources,What to Look For,Typical Data Gaps
+EXTRACTION ZONES,"Places where energy, materials, or attention are removed faster than they regenerate. Entropy is generated here but often invisible to those who benefit.","• Amazon deforestation frontier (Pará, Rondônia)
+• Congo Basin logging concessions
+• Rajasthan groundwater mining belt
+• Appalachian coal country
+• Atacama lithium triangle
+• Niger Delta oil extraction
+• Indonesian peatland conversion
+• Gulf of Guinea fishing grounds
+• Digital attention: social media platforms as extraction infrastructure","Global Forest Watch, GRACE groundwater, USGS/India-WRIS, CITES trade data, Comtrade resource flows, TRI/E-PRTR for chemical releases","Rate of depletion vs regeneration capacity. Acceleration patterns. Who profits vs who lives there. Sensory degradation (noise, odor, visual) as early signal of extraction intensification.",Olfactory data almost nonexistent at extraction sites. Sound data sparse outside US/EU. Attentional extraction not tracked geographically. Indigenous knowledge loss rarely quantified at extraction frontiers.
+CONCENTRATION ZONES,"Places where extracted value accumulates: wealth, infrastructure, comfort—and where dissipation is managed (exported elsewhere). Order appears high but depends on entropy displacement.","• Global megacities (Tokyo, NYC, London, Shanghai)
+• Silicon Valley / tech corridors
+• Singapore, Dubai (entrepôt cities)
+• European industrial heartlands (Ruhr, Po Valley)
+• Agricultural concentration: California Central Valley, Punjab
+• Financial centers as concentration of attentional extraction value","OpenAQ, EU Noise Directive, VIIRS nighttime lights, OECD Better Life Index, Google Trends, screen time surveys, urban green view indices","Sensory saturation indicators (noise, light, visual clutter, chemical odor). Wealth accumulation vs environmental externality export. Quality of life despite material abundance. Attentional overload symptoms.","Indoor air quality in concentration zones poorly tracked. Olfactory data in cities extremely scarce. Psychological cost of concentration (loneliness, anxiety) hard to link to ecological data. Green view index only available for select cities."
+DISPLACEMENT ZONES,"Places that absorb costs generated elsewhere: pollution sinks, waste destinations, communities bearing consequences of others' consumption. Time is stolen here.","• Bangladesh/Vietnam deltas (sea level rise from others' emissions)
+• Pacific Island nations (climate displacement)
+• Southeast Asian e-waste sites (Guiyu, Agbogbloshie)
+• Downwind communities from industrial zones
+• Deep ocean (noise, microplastics, acidification)
+• Future generations (CO2 residence time = temporal displacement zone)
+• Rural communities losing silence to urban sprawl","Basel Convention waste data, EXIOBASE embodied emissions, Global Carbon Atlas transfers, NOAA ocean noise, sea level projections, microplastic surveys",Direction and magnitude of flows arriving. Ratio of received costs to received benefits. Community adaptive capacity vs pressure rate. Reservoir condition in displacement zones (are buffers still intact?).,Most displacement zones have the LEAST monitoring infrastructure. Ocean olfactory/chemical ecology almost unmeasured. Sound data in displacement zones very sparse. Small island states have minimal continuous monitoring. Future displacement (intergenerational) has no direct measurement.

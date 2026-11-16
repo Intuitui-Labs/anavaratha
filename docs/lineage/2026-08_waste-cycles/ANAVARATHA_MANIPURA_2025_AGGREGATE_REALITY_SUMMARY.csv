@@ -1,0 +1,17 @@
+,value
+stations,22.0
+design_capacity_t_month,2775.0
+running_capacity_t_month,2391.3
+actual_production_t_month,157.00000000000003
+sales_t_month,142.4
+employees,254.0
+aggregate_running_as_pct_design,86.17297297297299
+aggregate_production_as_pct_running,6.5654664826663325
+aggregate_sales_as_pct_production,90.70063694267515
+mean_station_running_as_pct_design,89.76532861078314
+median_station_running_as_pct_design,80.9090909090909
+below_design_count,14.0
+over_design_count,7.0
+equal_design_count,1.0
+stations_production_below_10pct_running,17.0
+mean_production_per_employee_t_month,0.8247561724051661

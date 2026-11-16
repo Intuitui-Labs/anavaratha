@@ -1,0 +1,55 @@
+Domain,Layer (Ontological),What to Track,Why It Matters (Anavaratha Logic),Geographical Dimension,Temporal Dimension,Key Indicators,Pressure Reservoir Link
+WATER ECOLOGY,Thermodynamic (Open),"Precipitation, groundwater levels, river discharge, reservoir storage, water quality (BOD, TDS, heavy metals), aquifer recharge rates, water extraction volumes, virtual water trade",Water is the primary negentropic medium. Its flows encode memory of upstream extraction and downstream displacement. Depletion of aquifers = invisible reservoir erosion.,"Extraction: agricultural belts, mining regions
+Concentration: urban centers, industrial corridors
+Displacement: downstream communities, deltas, coastal zones","Immediate: daily discharge, real-time quality
+Medium: seasonal monsoon patterns, 5-yr trends
+Long-term: aquifer depletion curves, glacial melt trajectories","Groundwater depth change (m/yr), River BOD, Reservoir capacity utilization %, Virtual water balance per region","Wetlands, aquifers, glacial reserves, mangrove buffers"
+AIR ECOLOGY,Thermodynamic (Open),"PM2.5, PM10, NO2, SO2, O3, CO2, methane, black carbon, AQI composites, atmospheric deposition, wind patterns, inversion events",Air quality is the most democratic dissipation medium—everyone breathes the same air locally. Air pollution is entropy made visceral. Inversion events = trapped dissipation.,"Extraction: fossil fuel sites, smelters
+Concentration: megacity basins (Delhi, Beijing, LA)
+Displacement: transboundary plumes, acid rain downwind","Immediate: hourly AQI, real-time sensors
+Medium: seasonal patterns, 3-5 yr trends
+Long-term: decadal CO2 curves, ozone layer recovery","Annual avg PM2.5 (µg/m³), AQI days >200, CO2 ppm trend, Methane leakage rates","Forests (carbon sinks), ocean absorption, atmospheric CO2 residence time"
+SOIL ECOLOGY,Thermodynamic + Operational,"Soil organic carbon (SOC), nitrogen balance, phosphorus loading, erosion rates, microbiome diversity, salinization, compaction, land use change",Soil is the slowest and deepest pressure reservoir. Its degradation is invisible for decades. SOC loss = stolen time from future generations. Soil memory encodes centuries of care or neglect.,"Extraction: monoculture belts, mining overburden
+Concentration: fertilizer-heavy industrial agriculture
+Displacement: downstream sedimentation, desertification frontiers","Immediate: seasonal nutrient tests
+Medium: 5-10 yr SOC trends, erosion mapping
+Long-term: century-scale desertification, land degradation neutrality targets","SOC % change, Erosion rate (t/ha/yr), Nitrogen surplus (kg/ha), Salinization extent (ha)","Soil organic matter, peatlands, terra preta zones, mycorrhizal networks"
+BIOSPHERE (Flora/Fauna),Operational (Closed),"Species richness, population trends, habitat fragmentation, NDVI, forest cover change, coral reef health, pollinator indices, invasive species spread, extinction risk (IUCN Red List)",The biosphere is the operational layer—self-reproducing identities. Species loss is irreversible entropy. Red Queen dynamics: species must adapt faster than habitat degrades.,"Extraction: deforestation frontiers, fishery zones
+Concentration: biodiversity hotspots, protected areas
+Displacement: invasive species corridors, climate migration paths","Immediate: real-time deforestation alerts
+Medium: 5-yr population surveys, NDVI trends
+Long-term: Living Planet Index, extinction curves, phylogenetic diversity loss","Living Planet Index score, Forest cover change (ha/yr), IUCN Red List Index, Pollinator diversity index","Old-growth forests, coral reefs, seed banks, keystone species populations"
+ANIMAL MOVEMENT ECOLOGY,Operational (Closed),"Migration routes, movement corridors, home range shifts, road-kill data, fence/barrier impacts, wildlife crossing usage, stopover site quality, phenological mismatches",Movement is how organisms pattern dissipation across space. Corridor fragmentation = severed negentropic pathways. Phenological mismatches = temporal decoupling from ecological memory.,"Extraction: barrier infrastructure zones
+Concentration: critical bottlenecks (mountain passes, river crossings)
+Displacement: range shifts due to climate, urbanization","Immediate: GPS tracking, real-time movement
+Medium: seasonal migration timing shifts
+Long-term: decadal range shifts, corridor connectivity trends","Corridor connectivity index, Migration timing deviation (days), Road-kill density, Barrier permeability score","Migration stopover sites, wildlife corridors, natal habitats, overwintering grounds"
+SOUND ECOLOGY,Sensory Carrying Capacity,"Ambient noise levels (dB), anthropogenic noise ratio, biophonic indices, natural soundscape integrity, noise exposure duration, infrasound/ultrasound, temporal noise patterns","Sound is the first sensory ecology to collapse under pressure. Noise saturation erodes human negentropy (attention, patience, care) and disrupts animal communication. Silence is a pressure reservoir.","Extraction: industrial sites, highways, airports
+Concentration: urban cores, shipping lanes
+Displacement: noise bleeds into wilderness, marine noise into deep ocean","Immediate: real-time decibel monitoring
+Medium: seasonal patterns, 3-5 yr trends
+Long-term: baseline natural soundscape recovery, historical quiet zone loss","L50 ambient noise (dBA), Biophonic index, % time above 55dB, Natural soundscape integrity score","Silence zones, dawn chorus intact habitats, deep ocean quiet zones, sacred groves"
+VISUAL ECOLOGY,Sensory Carrying Capacity,"Light pollution (sky brightness), visual clutter indices, billboard density, horizon integrity, green view index, screen time exposure, visual complexity of built environments",Visual overload fragments attention—the substrate of care. Light pollution severs connection to celestial cycles. Visual clutter is entropy made perceptual. Green views are negentropic anchors.,"Extraction: illuminated industrial zones
+Concentration: city centers, commercial strips
+Displacement: light domes reaching rural areas, sky glow affecting ecosystems","Immediate: nightly satellite radiance
+Medium: 3-5 yr urban sprawl + light trends
+Long-term: decadal loss of dark sky areas, horizon integrity change","Artificial sky brightness (mag/arcsec²), Green view index %, Billboard density per km, Screen time hrs/day","Dark sky reserves, unlit coastlines, old-growth canopy views, horizon-intact landscapes"
+OLFACTORY ECOLOGY,Sensory Carrying Capacity,"Air quality odor complaints, VOC concentrations, natural scent diversity (plant volatiles, petrichor, sea spray), industrial odor frequency, olfactory masking by synthetic chemicals",Olfaction is the most undervalued sensory ecology. It anchors place-memory and emotional regulation. Chemical saturation erodes the ability to 'smell home'—a deep negentropic function.,"Extraction: petrochemical zones, feedlots
+Concentration: industrial parks, waste sites
+Displacement: downwind communities, groundwater VOC plumes","Immediate: real-time VOC sensors
+Medium: seasonal complaint patterns
+Long-term: long-term VOC trend analysis, natural fragrance ecosystem mapping","VOC concentration (ppb), Odor complaint frequency, Natural scent species richness, Chemical masking ratio","Old-growth forests (terpenes), coastal zones (iodine), petrichor-generating landscapes, traditional gardens"
+HUMAN ATTENTIONAL ECOLOGY,Structural (Nested),"Average attention span metrics, screen time, notification frequency, multitasking rates, deep work hours, nature contact time, contemplative practice rates, information intake volume","Attention is the human substrate of negentropy. Without sustained attention, care, stewardship, and long-term thinking collapse. Attentional ecology is the keystone ecology—when it degrades, all others follow.","Extraction: attention-harvesting platforms, ad density
+Concentration: social media engagement zones
+Displacement: contemplative communities losing silence, indigenous knowledge erosion","Immediate: daily screen time, notification counts
+Medium: 3-5 yr trend in deep reading, nature contact
+Long-term: generational attention shifts, contemplative practice decline","Avg daily screen time (hrs), Deep work time (hrs/wk), Nature contact frequency, Information intake (GB/day equivalent)","Contemplative traditions, libraries, nature immersion programs, slow media, ritual practices"
+CROSS-CUTTING: PRESSURE RESERVOIRS,All Layers,"Wetland area, peatland depth, forest carbon stock, aquifer levels, social trust indices, indigenous knowledge vitality, seed bank diversity, silence zone area",Pressure reservoirs are where negentropy is banked. Their erosion is the leading indicator of systemic collapse—it happens before visible damage. Tracking reservoirs = early warning system.,"Global: mapped by biome and governance zone
+Local: specific sites with long-term monitoring
+Virtual: cultural/knowledge reservoirs mapped by language vitality, ritual continuity","Immediate: real-time sensor networks where available
+Medium: 5-10 yr surveys
+Long-term: multi-decadal baselines, paleo-ecological reconstructions","Wetland area change (ha), Peatland depth (m), Social trust index, Language vitality index, Seed bank accessions",Self-referential: these ARE the reservoirs
+CROSS-CUTTING: ASYMMETRY FLOWS,All Layers,"Energy trade balances, waste export flows, virtual water trade, ecological footprint vs biocapacity, carbon debt, labor exploitation indices, resource curse indicators",Asymmetry is the moral core of Anavaratha. Who extracts? Who concentrates? Who is displaced? Tracking directional imbalance reveals where time is being stolen.,"Extraction → Concentration → Displacement chains mapped globally
+North-South flows, rural-urban flows, present-future flows","Immediate: annual trade data
+Medium: 5-yr ecological footprint trends
+Long-term: cumulative carbon debt, intergenerational resource depletion","Ecological footprint/biocapacity ratio, Virtual water net flow (km³/yr), Waste export volume, Carbon debt (GtCO2)",All reservoirs are implicated in asymmetry flows

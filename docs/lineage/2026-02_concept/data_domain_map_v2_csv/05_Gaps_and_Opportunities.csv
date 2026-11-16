@@ -1,0 +1,33 @@
+Gap Domain,Nature of Gap,Why It Matters for Anavaratha,Possible Proxy Data,Entrepreneurial / Creative Data Strategies,Priority (1-5)
+Olfactory ecology—global,No systematic olfactory monitoring exists anywhere. Chemical proxy (VOC) data available but phenomenological smell experience unmeasured.,Olfaction anchors place-memory and emotional regulation. Its invisibility in data = invisible degradation of a core negentropic function.,"VOC concentrations (EPA/EEA), odor complaint databases (municipal), plant volatile emission models, health data (respiratory illness)","• Citizen science 'smell mapping' campaigns (cf. SmellPittsburgh)
+• Partner with perfumers/aromatherapists for qualitative surveys
+• Correlate plant species richness with estimated volatile diversity
+• Use health complaint data as olfactory distress proxy",5
+Sound ecology—global baselines,"Pre-industrial soundscape baselines essentially nonexistent. Current monitoring fragmented (US parks, EU cities, some marine).","Without baselines, we can't measure what silence has been lost. Sound is the first sensory ecology to collapse—and we barely notice.","NPS acoustic data, EU noise maps, Xeno-canto archives, literary/historical descriptions of soundscapes","• Use historical literature/poetry for qualitative soundscape reconstruction
+• Extrapolate from remaining 'quiet refugia' as baseline proxies
+• Deploy low-cost acoustic sensors (AudioMoth) in partnership with communities
+• AI-assisted bioacoustic analysis of historical recordings",5
+Soil real-time monitoring,Soil is the slowest ecology. Most data is periodic surveys (3-10 year cycles). Real-time soil monitoring essentially nonexistent at scale.,"Soil degradation is invisible for decades. By the time it's measured, reservoir erosion may be irreversible. The ultimate 'stolen time' ecology.","Satellite-derived soil moisture (SMAP), crop yield trends as proxy, erosion modeling from DEM + rainfall data","• Partner with regenerative agriculture networks for continuous SOC monitoring
+• Use satellite soil moisture + NDVI as early warning proxies
+• Develop 'soil memory' index combining SOC trend + microbiome diversity + erosion rate
+• Citizen science soil testing kits distributed through farming cooperatives",4
+Attentional ecology—non-digital,"Screen time is tracked. But non-digital attention (contemplation, nature contact, deep reading, manual craft) is almost entirely unquantified.","Attention is the keystone ecology. If we only measure digital extraction without measuring negentropic attention practices, we have half the picture.","ATUS time use data, library circulation statistics, meditation app usage, national park visitation, survey data on nature contact","• Partner with contemplative communities for longitudinal attention tracking
+• Combine time-use surveys with ecological context data
+• Develop 'deep attention index' from reading duration, craft participation, nature immersion time
+• Track library, park, museum visit trends as collective attention allocation proxy",4
+Displacement zone monitoring,"The places most affected by displaced entropy have the LEAST monitoring infrastructure. Pacific islands, deltaic communities, downwind zones.",This is the moral heart of Anavaratha: displaced costs are invisible precisely because monitoring doesn't exist where damage lands.,"Satellite remote sensing (fills some gaps), mobile phone data for population stress indicators, humanitarian data (OCHA/UNHCR)","• Advocate for monitoring infrastructure investment in displacement zones
+• Use satellite constellations (Sentinel, Planet) for remote displacement tracking
+• Partner with local communities for ground-truthing
+• Develop 'received entropy' index combining waste imports, pollution drift, climate impact attribution",5
+Cultural/knowledge reservoir quantification,"UNESCO lists exist but quantifying cultural reservoir health is deeply underdeveloped. Language death, ritual loss, knowledge erosion barely tracked.","Cultural reservoirs encode centuries of ecological memory. Their loss is irrecoverable entropy. Yet we barely count what exists, let alone track its decline.","Ethnologue language data, UNESCO ICH list, indigenous knowledge databases (where they exist), oral history archives","• Partner with indigenous knowledge holders for culturally appropriate documentation
+• Develop 'ecological memory index' linking language diversity to local ecological knowledge
+• Map ritual calendars against ecological cycles they track
+• Document traditional ecological knowledge (TEK) before reservoir collapse",5
+Visual clutter—urban,"Billboard density, signage saturation, architectural visual complexity—almost entirely unmeasured. Light pollution well-tracked; visual noise is not.","Visual clutter fragments attention, which is the substrate of care. Urban visual entropy is a constant, unmeasured pressure on human negentropy.","Street View imagery (analyzable with CV), advertising spend by region (proxy), urban planning databases","• Computer vision analysis of Street View imagery for 'visual entropy index'
+• Partner with urban planners for signage density mapping
+• Citizen science 'visual relief' surveys identifying restorative vs. overwhelming visual environments
+• Develop 'horizon integrity index' from panoramic imagery analysis",3
+Insect/invertebrate populations,Vertebrates tracked by Living Planet Index. Insects—which are arguably more critical to ecosystem function—are severely undermonitored.,"Insects are the operational backbone of most terrestrial ecosystems (pollination, decomposition, food web). Their decline = silent negentropic collapse.","Limited long-term studies (Krefeld, UK butterfly monitoring), iNaturalist observations, agricultural pollinator surveys","• Scale citizen science insect monitoring (cf. German model)
+• Use windshield impact studies, light trap archives as rough baselines
+• AI-assisted identification from camera trap bycatch
+• Partner with beekeeping networks for pollinator health data",4

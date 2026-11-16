@@ -1,0 +1,5 @@
+record_id,event_id,date,time_start,time_end,observer_id,source_id,status,confidence,origin_id,destination_id,origin_type,destination_type,material,mass_value,mass_unit,mass_basis,coverage_period,geographic_scope,notes
+FLOW-0001,EVT-YYYY-001,YYYY-MM-DD,HH:MM,HH:MM,TEAM-A,SRC-001,observed,medium,GEN-001,FAC-001,household,transfer,food_organic,0,kg,weighed,single sample,Route or zone ID,
+FLOW-0002,EVT-YYYY-001,YYYY-MM-DD,HH:MM,HH:MM,TEAM-A,SRC-001,observed,medium,GEN-001,FAC-001,household,transfer,plastic,0,kg,weighed,single sample,Route or zone ID,
+FLOW-0003,EVT-YYYY-001,YYYY-MM-DD,HH:MM,HH:MM,TEAM-A,SRC-001,reported,low,ROUTE-001,FAC-002,route,landfill,mixed_residual,0,tonne,facility_record,one day,Route ID,Replace material category if mixed composition is unavailable
+FLOW-0004,EVT-YYYY-001,YYYY-MM-DD,HH:MM,HH:MM,TEAM-A,SRC-001,observed,medium,HOT-001,WATER-001,hotspot,waterway,plastic,0,kg,visual_estimate,one observation,Hotspot ID,Do not publish exact location without review
