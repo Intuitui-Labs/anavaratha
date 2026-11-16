@@ -42,4 +42,4 @@ sankey-beta
 
 **Sources:** `neevsk-research/anavaratha/phase1/WASTE_TAXONOMY_LK.md` type tables, "HH route" column (62 types).
 
-**Notes:** Unit = number of waste **types**, not tonnage. Uses `sankey-beta` (Mermaid ≥10.3). GitHub may need `sankey` instead, depending on its deployed version.
+**Notes:** Unit = number of waste **types**, not tonnage. Uses `sankey-beta`. Checked 2026-11-16: GitHub renders it natively, so no swap was needed. The PNG stays for viewers without Mermaid.
