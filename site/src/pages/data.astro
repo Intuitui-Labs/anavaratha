@@ -5,7 +5,7 @@ import graph from '../data/graph.json';
 import timeline from '../data/timeline.json';
 import geo from '../data/geo_meta.json';
 const files = [
-  ['operators_public.geojson', `Waste operators + drop points (${geo.features} points)`, `Contact, address and price fields removed; phone/email patterns scrubbed; coordinates rounded to 4 dp. Mostly locality centroids. ${geo.entities_geocoded_by_atlas + geo.drop_points_geocoded_by_atlas} placed by this atlas from their own address (flag geocoded_by_atlas).`],
+  ['operators_public.geojson', `Waste operators + drop points (${geo.features} points)`, `From the merged directory (2026-11-17): ${geo.retired_aliases_folded} duplicate ids folded into their canonical row (field aliases), ${geo.entities_proposed} proposed rows unverified, evidence status and domain tags per row. Contact, address and price fields removed; phone/email patterns scrubbed; coordinates rounded to 4 dp. Mostly locality centroids. ${geo.entities_geocoded_by_atlas + geo.drop_points_geocoded_by_atlas} approximate points from each row's own address (flag geocoded_by_atlas). Full public tables: data/merged/ in the repo.`],
   ['operators_unmapped.json', `Not mapped (${geo.entities_not_mapped + geo.drop_points_not_mapped} rows)`, 'Rows with no usable coordinates, with the reason for each. No coordinates invented.'],
   ['graph.json', `Relations graph (${graph.nodes.length} nodes, ${graph.edges.length} edges)`, 'Concepts, docs, institutions, projects. Every node and edge has a src path.'],
   ['timeline.json', `Concept events (${timeline.concept_events.length}) + ledger (${timeline.projects.length})`, 'Dates in Asia/Colombo; pattern codes a/b/c.'],

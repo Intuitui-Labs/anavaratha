@@ -1,6 +1,6 @@
 {
  "meta": {
-  "src": "neevsk-research/anavaratha/phase1/DIRECTORY_WASTE_OPERATORS_LK.geojson + .csv + _droppoints.csv (snapshot 2026-11-16)",
+  "src": "data/merged/ (Anavaratha merge v2, 2026-11-17) ← phase1 DIRECTORY_WASTE_OPERATORS_LK (+_droppoints)",
   "note": "rows with no usable coordinates; reason per row. No coordinates invented."
  },
  "rows": [
@@ -499,6 +499,54 @@
    "district": "Kegalle",
    "reason": "multi-site, itinerant or service-area entry; no single address in source",
    "src_precision": "not found"
+  },
+  {
+   "id": "LK-WO-0492",
+   "layer": "entity",
+   "name": "MAC Holdings (Private) Limited",
+   "district": "",
+   "reason": "proposed row from the Oct 2026 company list (unverified); no usable address",
+   "src_precision": ""
+  },
+  {
+   "id": "LK-WO-0493",
+   "layer": "entity",
+   "name": "Success Environmental Engineering Solutions",
+   "district": "",
+   "reason": "proposed row from the Oct 2026 company list (unverified); no usable address",
+   "src_precision": ""
+  },
+  {
+   "id": "LK-WO-0494",
+   "layer": "entity",
+   "name": "DAW Corporation",
+   "district": "",
+   "reason": "proposed row from the Oct 2026 company list (unverified); no usable address",
+   "src_precision": ""
+  },
+  {
+   "id": "LK-WO-0495",
+   "layer": "entity",
+   "name": "Antes Environmental Services (Pvt) Ltd",
+   "district": "",
+   "reason": "proposed row from the Oct 2026 company list (unverified); no usable address",
+   "src_precision": ""
+  },
+  {
+   "id": "LK-WO-0496",
+   "layer": "entity",
+   "name": "Sewn Export Pvt Ltd",
+   "district": "",
+   "reason": "proposed row from the Oct 2026 company list (unverified); no usable address",
+   "src_precision": ""
+  },
+  {
+   "id": "LK-WO-0497",
+   "layer": "entity",
+   "name": "Eko Plasco",
+   "district": "",
+   "reason": "proposed row from the Oct 2026 company list (unverified); no usable address",
+   "src_precision": ""
   },
   {
    "id": "LK-DP-0322",
