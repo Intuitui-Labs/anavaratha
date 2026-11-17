@@ -16,23 +16,23 @@ old={}
 op=SITE+'/public/data/operators_unmapped.json'
 if os.path.exists(op):
     for r in json.load(open(op))['rows']: old[r['id']]=r
-E=['id','name','type','waste_streams','waste_types','accepts_detail','activity','household_access','coord_precision','coord_status','cea_licence_status','active_evidence','source_urls','dataset_origin','verified_on_ground','record_status','aliases','evidence_status','domain_primary','domain_secondary','domain_confidence','merged_id']
-DPK=['point_id','point_name','operator','kind','streams','accepts','coord_precision','coord_status','source','evidence_status','domain_primary','domain_secondary','domain_confidence','merged_id']
+E=['id','name','type','waste_streams','waste_types','accepts_detail','activity','household_access','coord_precision','coord_status','cea_licence_status','active_evidence','source_urls','dataset_origin','verified_on_ground','record_status','aliases','evidence_status','domain_primary','domain_secondary','domain_confidence','merged_id','coord_check']
+DPK=['point_id','point_name','operator','kind','streams','accepts','coord_precision','coord_status','source','evidence_status','domain_primary','domain_secondary','domain_confidence','merged_id','coord_check']
 feats=[];um=[];c=dict(entities_total=0,entities_proposed=0,drop_points_total=0,entities_mapped=0,entities_geocoded_by_atlas=0,drop_points_mapped=0,drop_points_geocoded_by_atlas=0,entities_not_mapped=0,drop_points_not_mapped=0,retired_aliases_folded=0)
 for r in rd(SRC+'/directory_public.csv'):
     c['entities_total']+=1; prop=r['record_status'].startswith('proposed'); c['entities_proposed']+=prop
     c['retired_aliases_folded']+=len([a for a in r['aliases'].split(';') if a])
-    p={k:clean(r.get(k,'')) for k in E}; p['district']=r['district_resolved']; p['layer']='entity'; p['geocoded_by_atlas']=r['coord_status'].startswith('approximate')
+    p={k:clean(r.get(k,'')) for k in E}; p['district']=r['district_resolved']; p['layer']='entity'; p['geocoded_by_atlas']=r['coord_status'].startswith('approximate (site atlas')
     if num(r['lat']) and num(r['lon']):
         c['entities_mapped']+=1; c['entities_geocoded_by_atlas']+=p['geocoded_by_atlas']
         feats.append(dict(type='Feature',geometry=dict(type='Point',coordinates=[round(float(r['lon']),4),round(float(r['lat']),4)]),properties=p))
     else:
         c['entities_not_mapped']+=1; o=old.get(r['id'],{})
-        reason=o.get('reason') or ('proposed row from the Oct 2026 company list (unverified); no usable address' if prop else 'no usable coordinates in source')
+        reason=o.get('reason') or ('unverified desk-research candidate (2026-11-17); no published address' if r['record_status'].startswith('proposed candidate') else 'proposed row from the Oct 2026 company list (unverified); no usable address' if prop else 'no usable coordinates in source')
         um.append(dict(id=r['id'],layer='entity',name=p['name'],district=p['district'],reason=reason,src_precision=o.get('src_precision',r['coord_precision'])))
 for r in rd(SRC+'/droppoints_public.csv'):
     c['drop_points_total']+=1
-    p={k:clean(r.get(k,'')) for k in DPK}; p['layer']='drop_point'; p['geocoded_by_atlas']=r['coord_status'].startswith('approximate')
+    p={k:clean(r.get(k,'')) for k in DPK}; p['layer']='drop_point'; p['geocoded_by_atlas']=r['coord_status'].startswith('approximate (site atlas')
     if num(r['lat']) and num(r['lon']):
         c['drop_points_mapped']+=1; c['drop_points_geocoded_by_atlas']+=p['geocoded_by_atlas']
         feats.append(dict(type='Feature',geometry=dict(type='Point',coordinates=[round(float(r['lon']),4),round(float(r['lat']),4)]),properties=p))
@@ -41,7 +41,7 @@ for r in rd(SRC+'/droppoints_public.csv'):
         um.append(dict(id=r['point_id'],layer='drop_point',name=p['point_name'],district='',reason=o.get('reason','no usable coordinates in source'),src_precision=o.get('src_precision',r['coord_precision'])))
 meta=dict(src='data/merged/ (Anavaratha merge v2, 2026-11-17) ← phase1 DIRECTORY_WASTE_OPERATORS_LK (+_droppoints)',removed_fields=['address','contact_public','price'],scrubbed='phone/email patterns in remaining text',status='listed, not verified on ground',
   geocoded_by_atlas="approximate locality centroids from the row's own address (Nominatim/OSM, district-checked), written back into the directory; flagged geocoded_by_atlas=true / coord_status=approximate",
-  merge='8 duplicate ids folded into canonical rows (see aliases); 6 proposed rows from the Oct 2026 list are unverified; evidence_status and domain tags follow the charter',counts=c)
+  merge='9 duplicate ids folded into canonical rows (see aliases); 6 proposed rows from the Oct 2026 list and 11 desk-research candidates (2026-11-17) are unverified; coord_check = desk spot-check of approximate points; evidence_status and domain tags follow the charter',counts=c)
 json.dump(dict(type='FeatureCollection',meta=meta,features=feats),open(SITE+'/public/data/operators_public.geojson','w'),ensure_ascii=False)
 json.dump(dict(meta=dict(src=meta['src'],note='rows with no usable coordinates; reason per row. No coordinates invented.'),rows=um),open(op,'w'),indent=1,ensure_ascii=False)
 json.dump(c|dict(features=len(feats)),open(SITE+'/src/data/geo_meta.json','w'),indent=1)

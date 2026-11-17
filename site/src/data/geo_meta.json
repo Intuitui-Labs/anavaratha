@@ -1,13 +1,13 @@
 {
- "entities_total": 485,
- "entities_proposed": 6,
+ "entities_total": 495,
+ "entities_proposed": 17,
  "drop_points_total": 352,
- "entities_mapped": 417,
+ "entities_mapped": 422,
  "entities_geocoded_by_atlas": 41,
  "drop_points_mapped": 348,
  "drop_points_geocoded_by_atlas": 24,
- "entities_not_mapped": 68,
+ "entities_not_mapped": 73,
  "drop_points_not_mapped": 4,
- "retired_aliases_folded": 8,
- "features": 765
+ "retired_aliases_folded": 9,
+ "features": 770
 }

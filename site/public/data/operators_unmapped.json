@@ -504,7 +504,7 @@
    "id": "LK-WO-0492",
    "layer": "entity",
    "name": "MAC Holdings (Private) Limited",
-   "district": "",
+   "district": "Colombo",
    "reason": "proposed row from the Oct 2026 company list (unverified); no usable address",
    "src_precision": ""
   },
@@ -512,7 +512,7 @@
    "id": "LK-WO-0493",
    "layer": "entity",
    "name": "Success Environmental Engineering Solutions",
-   "district": "",
+   "district": "Matara",
    "reason": "proposed row from the Oct 2026 company list (unverified); no usable address",
    "src_precision": ""
   },
@@ -520,15 +520,15 @@
    "id": "LK-WO-0494",
    "layer": "entity",
    "name": "DAW Corporation",
-   "district": "",
+   "district": "Colombo",
    "reason": "proposed row from the Oct 2026 company list (unverified); no usable address",
    "src_precision": ""
   },
   {
    "id": "LK-WO-0495",
    "layer": "entity",
-   "name": "Antes Environmental Services (Pvt) Ltd",
-   "district": "",
+   "name": "Abans Environmental Services (Pvt) Ltd",
+   "district": "Colombo",
    "reason": "proposed row from the Oct 2026 company list (unverified); no usable address",
    "src_precision": ""
   },
@@ -536,7 +536,7 @@
    "id": "LK-WO-0496",
    "layer": "entity",
    "name": "Sewn Export Pvt Ltd",
-   "district": "",
+   "district": "Colombo",
    "reason": "proposed row from the Oct 2026 company list (unverified); no usable address",
    "src_precision": ""
   },
@@ -544,8 +544,48 @@
    "id": "LK-WO-0497",
    "layer": "entity",
    "name": "Eko Plasco",
-   "district": "",
+   "district": "Kalutara",
    "reason": "proposed row from the Oct 2026 company list (unverified); no usable address",
+   "src_precision": ""
+  },
+  {
+   "id": "LK-WO-0500",
+   "layer": "entity",
+   "name": "BLUECAP Material Recovery Facility, Kilinochchi (woman-owned; NRC BLUECAP project)",
+   "district": "Kilinochchi",
+   "reason": "unverified desk-research candidate (2026-11-17); no published address",
+   "src_precision": ""
+  },
+  {
+   "id": "LK-WO-0501",
+   "layer": "entity",
+   "name": "BLUECAP Material Recovery Facility, Mullaitivu (youth-owned; NRC BLUECAP project)",
+   "district": "Mullaitivu",
+   "reason": "unverified desk-research candidate (2026-11-17); no published address",
+   "src_precision": ""
+  },
+  {
+   "id": "LK-WO-0504",
+   "layer": "entity",
+   "name": "Mannar Urban Council solid-waste facility, Kurusunagar–Chinnakkadai",
+   "district": "Mannar",
+   "reason": "unverified desk-research candidate (2026-11-17); no published address",
+   "src_precision": ""
+  },
+  {
+   "id": "LK-WO-0507",
+   "layer": "entity",
+   "name": "Eco Spindles material recovery centre, Security Forces HQ Vanni (Vavuniya)",
+   "district": "Vavuniya",
+   "reason": "unverified desk-research candidate (2026-11-17); no published address",
+   "src_precision": ""
+  },
+  {
+   "id": "LK-WO-0508",
+   "layer": "entity",
+   "name": "Give Back Life PET bottle collection centre, Vavuniya (with Vavuniya MC)",
+   "district": "Vavuniya",
+   "reason": "unverified desk-research candidate (2026-11-17); no published address",
    "src_precision": ""
   },
   {

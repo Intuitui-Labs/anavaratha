@@ -77,7 +77,7 @@
         <p class="text-xs text-brand-muted">Position: {sel.coord_precision ?? 'n/a'}{sel.geocoded_by_atlas ? ' · placed by this atlas' : ''}</p>
         {#if sel.evidence_status}<p class="text-xs"><strong>Evidence:</strong> {sel.evidence_status}{#if sel.domain_primary && sel.domain_primary !== 'n/a'} · <strong>Domain:</strong> {sel.domain_primary}{sel.domain_secondary ? ` / ${sel.domain_secondary}` : ''} ({sel.domain_confidence}){/if}</p>{/if}
         {#if sel.aliases}<p class="text-xs text-brand-muted">Also listed as: {sel.aliases}</p>{/if}
-        {#if sel.record_status && sel.record_status.startsWith('proposed')}<p class="text-xs text-brand-muted">Proposed row (Oct 2026 list), unverified.</p>{/if}
+        {#if sel.record_status && sel.record_status.startsWith('proposed candidate')}<p class="text-xs text-brand-muted">Desk-research candidate (2026-11-17), unverified.</p>{:else if sel.record_status && sel.record_status.startsWith('proposed')}<p class="text-xs text-brand-muted">Proposed row (Oct 2026 list), unverified.</p>{/if}{#if sel.coord_check}<p class="text-xs text-brand-muted">Location check: {sel.coord_check}</p>{/if}
         <p class="src">src: {sel.source_urls ?? sel.source}</p>
       {:else}<p class="text-brand-muted">Click a point. Every row is <strong>listed</strong> (CEA lists, OSM, news, operator pages). None is verified on the ground yet. Contact fields removed.</p>{/if}
     </aside>
