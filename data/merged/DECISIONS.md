@@ -22,3 +22,23 @@ Public-safe copy of the merge decisions log (2026-11-17). Times are Asia/Colombo
 - Duplicates: rows merge only on a shared address or a same-registered-company signal. Same-name rows at different addresses with different CEA registrations are kept separate; see GAP_AUDIT "Resolved" for why 5 of the 13 pairs were not merged.
 - Coordinates in the Oct 2026 L3 dump-site table are rejected and never imported.
 - Ids: `_scripts/build_merge.py` now writes `_base/` and pins merged ids and review ids to the frozen v1 build. New entities are pinned in `_scripts/pins_v2.json`, so re-runs do not renumber.
+
+## Desk verification round — 2026-11-17 (approved by Naveen: "Yes, run the full desk verification round")
+
+Desk only: public sources, no contact, nothing submitted. Full report: `VERIFICATION_2026-11-17.md`.
+
+| Ref | Decision |
+|---|---|
+| RV-0169 | **Merge** LK-WO-0332 → LK-WO-0061 (Vass Enterprises): same contact person and shared phone in the public CEA lists; two premises kept. |
+| RV-0166/0176/0171/0177 | Keep separate (desk-verified: different contact persons, no shared phone/email). |
+| MR-02 | EUR 8,000,000 = EU financing-agreement amount (preferred); IATI/contract amounts kept as alternates. |
+| MR-03 | L3 "2024" start refuted; Kattankudy UC MRF works began 23 Sep 2025. |
+| RV-0015/0029 | Badulla MC compost plant ≠ Badulla PS compost yard (0425); ≈3.3 km apart. |
+| RV-0031 | Batticaloa MC compost plant = LK-WO-0426 (same_facility). |
+| RV-0127 | Kerawalapitiya yard period Apr 2017 – present; no conflict. |
+| RV-0159/0126 | 0395 ↔ L22 same_facility (linked, not merged). |
+| RV-0028 | Trincomalee UC disposes_at LK-WO-0427 (Kanniya/Kannaya dump). |
+| RV-0071 | Hospital wastewater plant ≠ plastic drop bin (co-located). |
+| 0492–0497 | Desk-checked: 0493/0494 out of operator scope, 0492 marginal; 0495 renamed Abans Environmental Services (medium); 0496/0497 in scope. |
+| LK-WO-0498–0508 | 11 **unverified candidate** rows (Badulla MC plant + Nuwara Eliya, Kilinochchi, Mullaitivu, Mannar, Vavuniya). |
+| Coordinates | 65 write-backs checked (48 independent: median 1.16 km, p90 2.82 km, max 5.05 km); 9 corrections proposed, **not applied**; see `coord_check` column. |
